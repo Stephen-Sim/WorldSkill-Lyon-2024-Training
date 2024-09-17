@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsa 2023 - v1\\id\\desktop\\desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|solutionrelative:desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsa 2023 - v1\\id\\desktop\\desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|solutionrelative:desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsa 2023 - v1\\id\\desktop\\desktop\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|solutionrelative:desktop\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsa 2023 - v1\\id\\desktop\\desktop\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23611527-0F95-4221-A347-4676332B001E}|Desktop\\Desktop.csproj|solutionrelative:desktop\\usercontrols\\playoff8usercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Playoff8UserControl.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\UserControls\\Playoff8UserControl.cs",
+              "RelativeDocumentMoniker": "Desktop\\UserControls\\Playoff8UserControl.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\UserControls\\Playoff8UserControl.cs",
+              "RelativeToolTip": "Desktop\\UserControls\\Playoff8UserControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T23:15:26.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Playoff8UserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\UserControls\\Playoff8UserControl.cs",
+              "RelativeDocumentMoniker": "Desktop\\UserControls\\Playoff8UserControl.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\UserControls\\Playoff8UserControl.cs [Design]",
+              "RelativeToolTip": "Desktop\\UserControls\\Playoff8UserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T23:15:14.286Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "Desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\Form1.cs [Design]",
+              "RelativeToolTip": "Desktop\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:29:34.361Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "Desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSA 2023 - v1\\ID\\Desktop\\Desktop\\Form1.cs",
+              "RelativeToolTip": "Desktop\\Form1.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:14:01.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

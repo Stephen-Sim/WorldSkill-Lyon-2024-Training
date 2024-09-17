@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.PartnerPage">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Partner Page" TextColor="White" FontSize="30"/>
+            <Button Text="Log out" HorizontalOptions="EndAndExpand" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <ListView x:Name="lv" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*, 100" RowSpacing="100">
+                                <StackLayout>
+                                    <Label Text="{Binding name}" FontAttributes="{Binding style}"/>
+                                    <Label Text="{Binding phone_no}" FontAttributes="{Binding style}"/>
+                                </StackLayout>
+
+                                <Button Grid.Column="1" Text="Call" CommandParameter="{Binding phone_no}" Clicked="Button_Clicked_1"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+            <Grid VerticalOptions="EndAndExpand" ColumnDefinitions="*, *" RowDefinitions="78">
+                <Frame BackgroundColor="Transparent" BorderColor="Black" Margin="0, 0, -8, 0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Frame.GestureRecognizers>
+                    <Label Text="Parcel" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </Frame>
+
+                <Frame Grid.Column="1" BackgroundColor="LightBlue" BorderColor="Black">
+                    <Label Text="Partner" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

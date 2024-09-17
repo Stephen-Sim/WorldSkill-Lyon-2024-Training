@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:MobileAPP.Models"
+             x:Class="MobileAPP.MainPage" Title="ASC 2023 Sponsor APP">
+
+    <StackLayout>
+        <CollectionView x:Name="lv" ItemsLayout="VerticalGrid, 2">
+            <CollectionView.Header>
+                <Label Text="Competitors"/>
+            </CollectionView.Header>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Competitor">
+                    <Grid ColumnDefinitions="90, *, 50" RowDefinitions="90">
+                        <Frame BackgroundColor="{Binding color}" VerticalOptions="Center" HorizontalOptions="Center" Padding="0" Margin="0" CornerRadius="50" HeightRequest="70" WidthRequest="70"/>
+                            
+                        <StackLayout Grid.Column="1" VerticalOptions="Center">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Name:"/>
+                                        <Span Text="{Binding name}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Country:"/>
+                                        <Span Text="{Binding country}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Skill:"/>
+                                        <Span Text="{Binding skill}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+
+                        <ImageButton BackgroundColor="Transparent" Grid.Column="2" Source="sponsor" CommandParameter="{Binding .}" Clicked="ImageButton_Clicked"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label x:Name="totalCom"/>
+
+        <Button Text="Call" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

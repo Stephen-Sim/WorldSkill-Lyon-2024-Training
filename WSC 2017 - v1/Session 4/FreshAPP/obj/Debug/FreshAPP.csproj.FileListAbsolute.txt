@@ -1,0 +1,28 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\bin\Debug\FreshAPP.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\bin\Debug\FreshAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\bin\Debug\FreshAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.BaseForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\FreshAPP\FreshAPP\obj\Debug\FreshAPP.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\FreshAPP.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\FreshAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\FreshAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.BaseForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\EntityFramework.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\EntityFramework.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.csproj.Up2Date
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2017 - v1\Session 4\FreshAPP\obj\Debug\FreshAPP.DetailedForm.resources

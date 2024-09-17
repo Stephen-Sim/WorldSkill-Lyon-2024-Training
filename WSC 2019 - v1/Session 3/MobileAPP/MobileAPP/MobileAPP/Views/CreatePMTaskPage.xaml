@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:MobileAPP.Models"
+             x:Class="MobileAPP.Views.CreatePMTaskPage" NavigationPage.HasBackButton="False">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Create PM" FontSize="24" FontFamily="Title"/>
+            <Button BackgroundColor="Transparent" Text="Back" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand" TextColor="Yellow"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Picker Title="Task name" x:Name="TaskPicker" HeightRequest="60"/>
+            
+            <Grid ColumnDefinitions="*, 0.5*">
+                <Picker Title="Asset Name" x:Name="AssetPicker" HeightRequest="60"/>
+                <Button Grid.Column="1" Text="Add to list" BackgroundColor="Transparent" TextColor="Blue" Clicked="Button_Clicked_1"/>
+            </Grid>
+
+            <ListView x:Name="lv" HasUnevenRows="True" HeightRequest="400">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Temp">
+                        <ViewCell>
+                            <Grid RowDefinitions="100" ColumnDefinitions="80, *, 50">
+                                <Frame HeightRequest="70" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="0" CornerRadius="50" WidthRequest="70" BackgroundColor="Gray"/>
+                                <Label Text="{Binding Name}" Grid.Column="1"/>
+                                <Button Text="X" CornerRadius="50" Grid.Column="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="50" HeightRequest="50" Clicked="Button_Clicked_2"
+                                         CommandParameter="{Binding .}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout>
+                <Picker Title="Schedule Models" x:Name="modelPicker" SelectedIndexChanged="modelPicker_SelectedIndexChanged"/>
+
+                <StackLayout IsVisible="False" x:Name="MilageStackLayout">
+                    <Entry Keyboard="Numeric" x:Name="fromMilageEntry" Placeholder="From Milage (kilometer)"/>
+                    <Entry Keyboard="Numeric" x:Name="TomilageEntry" Placeholder="To Milage (kilometer)"/>
+                    <Entry Keyboard="Numeric" x:Name="milageEntry" Placeholder="Enter Milage (kilometer)"/>
+                </StackLayout>
+
+
+                <StackLayout IsVisible="False" x:Name="DateRangeStackLayout">
+                    
+                    <Grid ColumnDefinitions="*, *" RowDefinitions="50, 50">
+                        <Label Text="Start Date"/>
+                        <Label Grid.Column="1" Text="End Date"/>
+                        <DatePicker x:Name="startDate" Grid.Row="1"/>
+                        <DatePicker Grid.Column="1" x:Name="endDate" Grid.Row="1"/>
+                    </Grid>
+
+                    <Entry IsVisible="False" x:Name="dailyEntry" Keyboard="Numeric" Placeholder="Select daily Interval"/>
+                    <Picker IsVisible="False" x:Name="weeklyPicker" Title="Select month weekly Interval"/>
+                    <Picker IsVisible="False" x:Name="monthPicker" Title="Select month daily Interval"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                <Button Text="Submit" TextColor="Blue" BackgroundColor="Transparent" Clicked="Button_Clicked_3"/>
+                <Button Text="Cancel" TextColor="Blue" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

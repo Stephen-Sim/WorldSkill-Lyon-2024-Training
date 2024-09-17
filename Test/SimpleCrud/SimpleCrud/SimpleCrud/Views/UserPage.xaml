@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:SimpleCrud.Models"
+             x:Class="SimpleCrud.Views.UserPage" Title="User List">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <ListView x:Name="lv" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:User">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="60, *, 120" RowDefinitions="70">
+                                <Frame BackgroundColor="{Binding Color}" HeightRequest="50" WidthRequest="50" CornerRadius="50" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="0"/>
+
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label Text="{Binding Username}"/>
+                                    <Label Text="{Binding Age}"/>
+                                </StackLayout>
+
+                                <Grid Grid.Column="2" ColumnDefinitions="*, *" RowDefinitions="50" VerticalOptions="Center">
+                                    <Button Text="Edit"/>
+                                    <Button Grid.Column="1" Text="Del"/>
+                                </Grid>
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

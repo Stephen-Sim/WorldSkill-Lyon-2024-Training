@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.ValidatePasscodePage" Title="Login Page" NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout Margin="5" VerticalOptions="Center">
+            <Image Source="logistics" HeightRequest="300"/>
+
+            <Label Text="Please login to the system"/>
+
+            <Frame BorderColor="Black">
+                <StackLayout>
+                    <Label x:Name="uLabel"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Passcode: "/>
+                        <Entry x:Name="pEntry" WidthRequest="300"/>
+                        <Label Text="(6 - digits)"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Back" WidthRequest="300" Clicked="Button_Clicked"/>
+                        <Button Text="Verify" WidthRequest="300" Clicked="Button_Clicked_1"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

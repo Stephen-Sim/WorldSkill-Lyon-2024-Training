@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|solutionrelative:mobileapp\\mobileapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\template\\mobileapp\\mobileapp\\mobileapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp.android\\properties\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|solutionrelative:mobileapp\\mobileapp.android\\properties\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|solutionrelative:mobileapp\\mobileapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836C0C03-D45B-425F-AA3A-71B6C2D8DA2E}|MobileAPP\\MobileAPP.Android\\MobileAPP.Android.csproj|solutionrelative:mobileapp\\mobileapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\models\\temp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\models\\temp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\mobileapp\\mobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A52B78-16A1-4FB4-9C38-47E5F373175A}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "styles.xml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Resources\\values\\styles.xml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP.Android\\Resources\\values\\styles.xml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Resources\\values\\styles.xml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP.Android\\Resources\\values\\styles.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-06T05:11:24.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP.Android\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP.Android\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:10:43.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Services\\ApiService.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Services\\ApiService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:03:50.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Temp.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Models\\Temp.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Models\\Temp.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Models\\Temp.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Models\\Temp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:03:26.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:01:06.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\MainPage.xaml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Views\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-06T05:01:01.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\MainActivity.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:11:06.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:18:38.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-06T05:24:18.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\App.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\App.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-06T05:15:12.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Template\\MobileAPP\\MobileAPP\\MobileAPP\\AssemblyInfo.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:00:49.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

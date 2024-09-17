@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23eecdf6bfe04d659df0958bf8ebf171" Name="Diagram1">
+        <EntityTypeShape EntityType="WSC2019_Session3Model.AssetOdometer" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2019_Session3Model.Asset" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2019_Session3Model.PMScheduleModel" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2019_Session3Model.PMScheduleType" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2019_Session3Model.PMTask" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2019_Session3Model.Task" Width="1.5" PointX="3.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="WSC2019_Session3Model.FK_AssetOdometers_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2019_Session3Model.FK_PMTasks_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2019_Session3Model.FK_PMScheduleModels_PMScheduleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2019_Session3Model.FK_PMTasks_PMScheduleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2019_Session3Model.FK_PMTasks_Tasks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

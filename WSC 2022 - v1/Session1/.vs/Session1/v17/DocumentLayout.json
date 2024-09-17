@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\createaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2022 - v1\\session1\\session1\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{961BF20C-9E7D-40E3-BC59-3991A720D97C}|Session1\\Session1.csproj|solutionrelative:session1\\employeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\BaseForm.cs",
+              "RelativeDocumentMoniker": "Session1\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\BaseForm.cs [Design]",
+              "RelativeToolTip": "Session1\\BaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:03:10.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAccountForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\CreateAccountForm.cs",
+              "RelativeDocumentMoniker": "Session1\\CreateAccountForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\CreateAccountForm.cs",
+              "RelativeToolTip": "Session1\\CreateAccountForm.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:26:09.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateAccountForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\CreateAccountForm.cs",
+              "RelativeDocumentMoniker": "Session1\\CreateAccountForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\CreateAccountForm.cs [Design]",
+              "RelativeToolTip": "Session1\\CreateAccountForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:26:08.033Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "Session1\\UserManagementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\UserManagementForm.cs",
+              "RelativeToolTip": "Session1\\UserManagementForm.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAowFMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:15:36.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserManagementForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "Session1\\UserManagementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\UserManagementForm.cs [Design]",
+              "RelativeToolTip": "Session1\\UserManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:13:30.822Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\EmployeeForm.cs",
+              "RelativeDocumentMoniker": "Session1\\EmployeeForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2022 - v1\\Session1\\Session1\\EmployeeForm.cs [Design]",
+              "RelativeToolTip": "Session1\\EmployeeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:13:29.789Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

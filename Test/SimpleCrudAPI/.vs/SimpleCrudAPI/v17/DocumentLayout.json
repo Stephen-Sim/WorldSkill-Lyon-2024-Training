@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\test\\simplecrudapi\\simplecrudapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|solutionrelative:simplecrudapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\test\\simplecrudapi\\simplecrudapi\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|solutionrelative:simplecrudapi\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\test\\simplecrudapi\\simplecrudapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42BA4D8E-2938-456A-A5B6-2E02D19ABD3B}|SimpleCrudAPI\\SimpleCrudAPI.csproj|solutionrelative:simplecrudapi\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "SimpleCrudAPI\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "SimpleCrudAPI\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-08T15:58:07Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "SimpleCrudAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "SimpleCrudAPI\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:54:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "SimpleCrudAPI\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Test\\SimpleCrudAPI\\SimpleCrudAPI\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "SimpleCrudAPI\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:54:06.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

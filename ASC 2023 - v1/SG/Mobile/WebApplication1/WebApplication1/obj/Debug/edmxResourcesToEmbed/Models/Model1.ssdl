@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sg_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attempts">
+    <Key>
+      <PropertyRef Name="AttemptId" />
+    </Key>
+    <Property Name="AttemptId" Type="int" Nullable="false" />
+    <Property Name="QnId" Type="int" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="255" />
+    <Property Name="Answer" Type="nvarchar(max)" />
+    <Property Name="DateTime" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="QnId" />
+    </Key>
+    <Property Name="QnId" Type="int" Nullable="false" />
+    <Property Name="QuizId" Type="int" />
+    <Property Name="Question" Type="nvarchar(max)" />
+    <Property Name="OptionA" Type="nvarchar(max)" />
+    <Property Name="OptionB" Type="nvarchar(max)" />
+    <Property Name="OptionC" Type="nvarchar(max)" />
+    <Property Name="OptionD" Type="nvarchar(max)" />
+    <Property Name="CorrectAnswer" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Quizzes">
+    <Key>
+      <PropertyRef Name="QuizId" />
+    </Key>
+    <Property Name="QuizId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="ForExpert" Type="char" MaxLength="1" />
+    <Property Name="ForCompetitor" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Role" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Attempts_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="0..1" />
+    <End Role="Attempts" Type="Self.Attempts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QnId" />
+      </Principal>
+      <Dependent Role="Attempts">
+        <PropertyRef Name="QnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attempts_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Attempts" Type="Self.Attempts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Attempts">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_Quizzes">
+    <End Role="Quizzes" Type="Self.Quizzes" Multiplicity="0..1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quizzes">
+        <PropertyRef Name="QuizId" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="QuizId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sg_dbModelStoreContainer">
+    <EntitySet Name="Attempts" EntityType="Self.Attempts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Quizzes" EntityType="Self.Quizzes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Attempts_Questions" Association="Self.FK_Attempts_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Attempts" EntitySet="Attempts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attempts_Users" Association="Self.FK_Attempts_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Attempts" EntitySet="Attempts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_Quizzes" Association="Self.FK_Questions_Quizzes">
+      <End Role="Quizzes" EntitySet="Quizzes" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

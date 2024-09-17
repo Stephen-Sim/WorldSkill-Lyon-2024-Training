@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6f4a384010c9454998a0d500084c30fe" Name="Diagram1">
+        <EntityTypeShape EntityType="logistic_dbModel.Area" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.AttemptHistory" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.Parcel" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.ParcelType" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.Partner" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.Path" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.Path_Partner" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.Path_Partner_Parcel" Width="1.5" PointX="10.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="logistic_dbModel.SecurityQuestion" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="logistic_dbModel.FK_Area_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Area_Area1" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Area1" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Area2" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_AttemptHistory_Partner" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_AttemptHistory_SecurityQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Parcel_ParcelType" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Parcel_Path" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Parcel_Path_Partner_Parcel" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Path_Partner" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Path_Partner2" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Parcel_Path_Partner" ManuallyRouted="false" />
+        <AssociationConnector Association="logistic_dbModel.FK_Path_Partner_Path_Partner1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

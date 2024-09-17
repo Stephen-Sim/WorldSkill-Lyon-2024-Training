@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\adminemreqeustdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\adminemreqeustdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\adminemreqeustdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\adminemreqeustdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\adminemreqeustdetailform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\adminemreqeustdetailform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\accountablepartyemrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\accountablepartyemrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\accountablepartyemmangementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\accountablepartyemmangementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\adminemmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\adminemmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\adminemmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\adminemmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\accountablepartyemrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\accountablepartyemrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\accountablepartyemmangementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\accountablepartyemmangementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc 2019 - v1\\session 2\\desktopapp\\accountablepartyemmangementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F41859FC-D301-4359-8385-9EC61FFFB005}|DesktopAPP\\DesktopAPP.csproj|solutionrelative:desktopapp\\accountablepartyemmangementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminEMReqeustDetailForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.Designer.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AdminEMReqeustDetailForm.Designer.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.Designer.cs",
+              "RelativeToolTip": "DesktopAPP\\AdminEMReqeustDetailForm.Designer.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAAAPEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T11:18:13.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminEMReqeustDetailForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.cs [Design]",
+              "RelativeToolTip": "DesktopAPP\\AdminEMReqeustDetailForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:20:00.897Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountablePartyEMMangementForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.cs [Design]",
+              "RelativeToolTip": "DesktopAPP\\AccountablePartyEMMangementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:07:14.372Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminEMManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMManagementForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AdminEMManagementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMManagementForm.cs",
+              "RelativeToolTip": "DesktopAPP\\AdminEMManagementForm.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:02:24.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminEMReqeustDetailForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "RelativeToolTip": "DesktopAPP\\AdminEMReqeustDetailForm.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAJUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:31:12.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountablePartyEMRequestForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMRequestForm.cs [Design]",
+              "RelativeToolTip": "DesktopAPP\\AccountablePartyEMRequestForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:39:02.343Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminEMManagementForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMManagementForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AdminEMManagementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AdminEMManagementForm.cs [Design]",
+              "RelativeToolTip": "DesktopAPP\\AdminEMManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:56:32.117Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountablePartyEMRequestForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "RelativeToolTip": "DesktopAPP\\AccountablePartyEMRequestForm.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:39:05.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\Form1.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\Form1.cs",
+              "RelativeToolTip": "DesktopAPP\\Form1.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:01:52.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\Form1.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\Form1.cs [Design]",
+              "RelativeToolTip": "DesktopAPP\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:50:05.336Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountablePartyEMMangementForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.Designer.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AccountablePartyEMMangementForm.Designer.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.Designer.cs",
+              "RelativeToolTip": "DesktopAPP\\AccountablePartyEMMangementForm.Designer.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAE0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:37:46.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountablePartyEMMangementForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "RelativeDocumentMoniker": "DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC 2019 - v1\\Session 2\\DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "RelativeToolTip": "DesktopAPP\\AccountablePartyEMMangementForm.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T09:10:16.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

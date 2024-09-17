@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="chartPracticeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="Gender" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ItemPurchased" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Category" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PurchaseAmount" Type="Int32" />
+    <Property Name="Location" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Size" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Color" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Season" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ReviewRating" Type="Decimal" Precision="5" Scale="1" />
+    <Property Name="SubscriptionStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ShippingType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DiscountApplied" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PromoCodeUsed" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PreviousPurchases" Type="Int32" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FrequencyOfPurchases" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="chartPracticeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+  </EntityContainer>
+</Schema>

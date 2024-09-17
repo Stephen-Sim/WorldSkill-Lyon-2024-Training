@@ -1,0 +1,10 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\bin\Debug\Chart.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\bin\Debug\Chart.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\bin\Debug\Chart.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Iran\Chart\Chart\obj\Debug\Chart.pdb

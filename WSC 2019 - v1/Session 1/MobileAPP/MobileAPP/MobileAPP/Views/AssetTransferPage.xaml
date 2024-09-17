@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAPP.Views.AssetTransferPage">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Asset Transfer" FontSize="24" FontFamily="Title"/>
+
+            <Button Text="Back" HorizontalOptions="EndAndExpand" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="10" VerticalOptions="CenterAndExpand">
+            <Label Text="Selected Asset"/>
+            <BoxView HeightRequest="1" BackgroundColor="Black"/>
+
+            <Grid RowDefinitions="80, 80" ColumnDefinitions="*, *">
+                <StackLayout>
+                    <Label Text="Asset Name"/>
+                    <Entry x:Name="assetNameEntry" Text="" IsEnabled="False"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1">
+                    <Label Text="Current Department"/>
+                    <Entry x:Name="departmentEntry" Text="" IsEnabled="False"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1">
+                    <Label Text="AssetSN"/>
+                    <Entry x:Name="assetSNEntry" Text="" IsEnabled="False"/>
+                </StackLayout>
+            </Grid>
+
+            <BoxView HeightRequest="50"/>
+
+            <Label Text="Destination Department"/>
+            <BoxView HeightRequest="1" BackgroundColor="Black"/>
+
+            <Grid RowDefinitions="80, 80" ColumnDefinitions="*, *">
+                <StackLayout>
+                    <Label Text="Asset Name"/>
+                    <Picker x:Name="dPicker" Title="Destination Department" SelectedIndexChanged="lPicker_SelectedIndexChanged"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1">
+                    <Label Text="Current Department"/>
+                    <Picker x:Name="lPicker" Title="Destination Location" SelectedIndexChanged="lPicker_SelectedIndexChanged"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1">
+                    <Label Text="AssetSN"/>
+                    <Entry x:Name="newAssetSN" Text="??/??/????" IsEnabled="False"/>
+                </StackLayout>
+            </Grid>
+
+            <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+                <Button Text="Submit" BackgroundColor="Transparent" Clicked="Button_Clicked_1" TextColor="Blue" HorizontalOptions="EndAndExpand"/>
+                <Button Text="CANCEL" BackgroundColor="Transparent" TextColor="Blue" HorizontalOptions="End" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:models="clr-namespace:MobileAPP.Models"
+             x:Class="MobileAPP.MainPage" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Margin="20">
+        <Grid ColumnDefinitions="200, *, 200" HeightRequest="80">
+            <Label Text="Well Name: "/>
+            <Picker x:Name="wellPicker" Grid.Column="1" SelectedIndexChanged="wellPicker_SelectedIndexChanged"/>
+            <Button Text="Edit" Clicked="Button_Clicked" Grid.Column="2"/>
+        </Grid>
+
+        <ListView HasUnevenRows="True" x:Name="lv" Margin="40">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="models:Layer">
+                    <ViewCell>
+                        <Grid RowDefinitions="*" ColumnDefinitions="*, 120">
+                            <Frame HeightRequest="{Binding Height}" BackgroundColor="{Binding Color}" BorderColor="Black">
+                                <Label Text="{Binding Name}" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="{Binding FontColor}"/>
+                            </Frame>
+
+                            <Label Text="{Binding Display}" VerticalOptions="Start" Grid.Column="1"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Well Capacity:" x:Name="capLabel"/>
+            <Button Text="➕" HorizontalOptions="EndAndExpand" HeightRequest="80" WidthRequest="80" CornerRadius="50" BackgroundColor="#A4C2D6"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

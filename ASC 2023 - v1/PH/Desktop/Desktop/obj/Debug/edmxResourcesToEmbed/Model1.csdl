@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ASC2023_PH_DesktopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="booking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Guest" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="RoomID" Type="Int32" />
+    <Property Name="Date_From" Type="DateTime" Precision="0" />
+    <Property Name="Date_To" Type="DateTime" Precision="0" />
+    <Property Name="checkoutdate" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Total" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="room" Relationship="Self.bookings_ibfk_1" FromRole="bookings" ToRole="rooms" />
+    <NavigationProperty Name="user" Relationship="Self.bookings_ibfk_2" FromRole="bookings" ToRole="users" />
+  </EntityType>
+  <EntityType Name="room">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomNumber" Type="Int32" />
+    <Property Name="Capacity" Type="Int32" />
+    <Property Name="RoomType" Type="Int32" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Photo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Availability" Type="Byte" />
+    <NavigationProperty Name="bookings" Relationship="Self.bookings_ibfk_1" FromRole="rooms" ToRole="bookings" />
+    <NavigationProperty Name="roomtype1" Relationship="Self.rooms_ibfk_1" FromRole="rooms" ToRole="roomtype" />
+  </EntityType>
+  <EntityType Name="roomtype">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="rooms" Relationship="Self.rooms_ibfk_1" FromRole="roomtype" ToRole="rooms" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="validity" Type="DateTime" Precision="3" />
+    <Property Name="isActive" Type="Int16" />
+    <NavigationProperty Name="bookings" Relationship="Self.bookings_ibfk_2" FromRole="users" ToRole="bookings" />
+  </EntityType>
+  <Association Name="bookings_ibfk_1">
+    <End Role="rooms" Type="Self.room" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bookings" Type="Self.booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rooms">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="bookings">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="bookings_ibfk_2">
+    <End Role="users" Type="Self.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bookings" Type="Self.booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="bookings">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rooms_ibfk_1">
+    <End Role="roomtype" Type="Self.roomtype" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="rooms" Type="Self.room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roomtype">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rooms">
+        <PropertyRef Name="RoomType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ASC2023_PH_DesktopEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bookings" EntityType="Self.booking" />
+    <EntitySet Name="rooms" EntityType="Self.room" />
+    <EntitySet Name="roomtypes" EntityType="Self.roomtype" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="bookings_ibfk_1" Association="Self.bookings_ibfk_1">
+      <End Role="rooms" EntitySet="rooms" />
+      <End Role="bookings" EntitySet="bookings" />
+    </AssociationSet>
+    <AssociationSet Name="bookings_ibfk_2" Association="Self.bookings_ibfk_2">
+      <End Role="users" EntitySet="users" />
+      <End Role="bookings" EntitySet="bookings" />
+    </AssociationSet>
+    <AssociationSet Name="rooms_ibfk_1" Association="Self.rooms_ibfk_1">
+      <End Role="roomtype" EntitySet="roomtypes" />
+      <End Role="rooms" EntitySet="rooms" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

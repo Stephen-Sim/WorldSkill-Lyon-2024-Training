@@ -1,0 +1,16 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\CustomerTrend.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\CustomerTrend.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\CustomerTrend.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\EntityFramework.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\EntityFramework.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.ChartUC.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\Customer.AECE6B1E.Up2Date
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Winform Chart Practice\CustomerTrend\CustomerTrend\obj\Debug\CustomerTrend.pdb

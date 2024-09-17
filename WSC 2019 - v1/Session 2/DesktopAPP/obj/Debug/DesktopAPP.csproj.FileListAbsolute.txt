@@ -1,0 +1,30 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\bin\Debug\DesktopAPP.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\bin\Debug\DesktopAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\bin\Debug\DesktopAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Template\DesktopAPP\DesktopAPP\obj\Debug\DesktopAPP.BaseForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\DesktopAPP.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\DesktopAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\DesktopAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.BaseForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\EntityFramework.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\EntityFramework.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.AccountablePartyEMMangementForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.csproj.Up2Date
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.AccountablePartyEMRequestForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.AdminEMManagementForm.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\WSC 2019 - v1\Session 2\DesktopAPP\obj\Debug\DesktopAPP.AdminEMReqeustDetailForm.resources

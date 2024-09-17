@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="logistic_dbModelStoreContainer" CdmEntityContainer="logistic_dbEntities">
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="logistic_dbModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="fromArea" ColumnName="fromArea" />
+          <ScalarProperty Name="toArea" ColumnName="toArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttemptHistories">
+      <EntityTypeMapping TypeName="logistic_dbModel.AttemptHistory">
+        <MappingFragment StoreEntitySet="AttemptHistory">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="partnerId" ColumnName="partnerId" />
+          <ScalarProperty Name="SecurityQuesId" ColumnName="SecurityQuesId" />
+          <ScalarProperty Name="result" ColumnName="result" />
+          <ScalarProperty Name="attemptTime" ColumnName="attemptTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parcels">
+      <EntityTypeMapping TypeName="logistic_dbModel.Parcel">
+        <MappingFragment StoreEntitySet="Parcel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="pathId" ColumnName="pathId" />
+          <ScalarProperty Name="parcelTypeId" ColumnName="parcelTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParcelTypes">
+      <EntityTypeMapping TypeName="logistic_dbModel.ParcelType">
+        <MappingFragment StoreEntitySet="ParcelType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Partners">
+      <EntityTypeMapping TypeName="logistic_dbModel.Partner">
+        <MappingFragment StoreEntitySet="Partner">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="securityQuesId" ColumnName="securityQuesId" />
+          <ScalarProperty Name="areaId" ColumnName="areaId" />
+          <ScalarProperty Name="tel_no" ColumnName="tel_no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paths">
+      <EntityTypeMapping TypeName="logistic_dbModel.Path">
+        <MappingFragment StoreEntitySet="Path">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_area" ColumnName="start_area" />
+          <ScalarProperty Name="end_area" ColumnName="end_area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Path_Partner">
+      <EntityTypeMapping TypeName="logistic_dbModel.Path_Partner">
+        <MappingFragment StoreEntitySet="Path_Partner">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="partnerId" ColumnName="partnerId" />
+          <ScalarProperty Name="isFirst" ColumnName="isFirst" />
+          <ScalarProperty Name="nextNode" ColumnName="nextNode" />
+          <ScalarProperty Name="pathId" ColumnName="pathId" />
+          <ScalarProperty Name="areaId" ColumnName="areaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Path_Partner_Parcel">
+      <EntityTypeMapping TypeName="logistic_dbModel.Path_Partner_Parcel">
+        <MappingFragment StoreEntitySet="Path_Partner_Parcel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="deliverTime" ColumnName="deliverTime" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="parcelId" ColumnName="parcelId" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="path_partner_id" ColumnName="path_partner_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecurityQuestions">
+      <EntityTypeMapping TypeName="logistic_dbModel.SecurityQuestion">
+        <MappingFragment StoreEntitySet="SecurityQuestion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="question" ColumnName="question" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

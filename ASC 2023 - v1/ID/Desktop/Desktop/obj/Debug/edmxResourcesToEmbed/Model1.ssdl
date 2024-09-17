@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EsemkaCompetitionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Competition">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="VenueId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompetitionPrice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionId" Type="int" Nullable="false" />
+    <Property Name="LevelId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Level">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Match">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompetitionId" Type="int" Nullable="false" />
+    <Property Name="TeamAId" Type="int" />
+    <Property Name="TeamBId" Type="int" />
+    <Property Name="MatchTypeId" Type="int" Nullable="false" />
+    <Property Name="LevelId" Type="int" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MatchRound">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MatchId" Type="int" Nullable="false" />
+    <Property Name="RoundNumber" Type="int" Nullable="false" />
+    <Property Name="ScoreTeamA" Type="int" Nullable="false" />
+    <Property Name="ScoreTeamB" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MatchType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SeatClass">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ScalePercentage" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeamName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ShortName" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="MatchId" Type="int" Nullable="false" />
+    <Property Name="TransactionDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TicketDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TicketId" Type="int" Nullable="false" />
+    <Property Name="SeatNumber" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="SeatClassId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Venue">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaximumSeatPerRow" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VenueSeatConfiguration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VenueId" Type="int" Nullable="false" />
+    <Property Name="SeatClassId" Type="int" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Competiti__Compe__5AEE82B9">
+    <End Role="Competition" Type="Self.Competition" Multiplicity="1" />
+    <End Role="CompetitionPrice" Type="Self.CompetitionPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competition">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompetitionPrice">
+        <PropertyRef Name="CompetitionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Competiti__Level__5BE2A6F2">
+    <End Role="Level" Type="Self.Level" Multiplicity="1" />
+    <End Role="CompetitionPrice" Type="Self.CompetitionPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompetitionPrice">
+        <PropertyRef Name="LevelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Competiti__Venue__412EB0B6">
+    <End Role="Venue" Type="Self.Venue" Multiplicity="1" />
+    <End Role="Competition" Type="Self.Competition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venue">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Competition">
+        <PropertyRef Name="VenueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Match__Competiti__49C3F6B7">
+    <End Role="Competition" Type="Self.Competition" Multiplicity="1" />
+    <End Role="Match" Type="Self.Match" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Competition">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Match">
+        <PropertyRef Name="CompetitionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Match__LevelId__4BAC3F29">
+    <End Role="Level" Type="Self.Level" Multiplicity="1" />
+    <End Role="Match" Type="Self.Match" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Level">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Match">
+        <PropertyRef Name="LevelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Match__MatchType__4AB81AF0">
+    <End Role="MatchType" Type="Self.MatchType" Multiplicity="1" />
+    <End Role="Match" Type="Self.Match" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MatchType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Match">
+        <PropertyRef Name="MatchTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MatchRoun__Match__5070F446">
+    <End Role="Match" Type="Self.Match" Multiplicity="1" />
+    <End Role="MatchRound" Type="Self.MatchRound" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MatchRound">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket__MatchId__5441852A">
+    <End Role="Match" Type="Self.Match" Multiplicity="1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Match">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="MatchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket__UserId__534D60F1">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TicketDet__SeatC__571DF1D5">
+    <End Role="SeatClass" Type="Self.SeatClass" Multiplicity="1" />
+    <End Role="TicketDetail" Type="Self.TicketDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SeatClass">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TicketDetail">
+        <PropertyRef Name="SeatClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TicketDet__Ticke__5812160E">
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="1" />
+    <End Role="TicketDetail" Type="Self.TicketDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TicketDetail">
+        <PropertyRef Name="TicketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VenueSeat__SeatC__44FF419A">
+    <End Role="SeatClass" Type="Self.SeatClass" Multiplicity="1" />
+    <End Role="VenueSeatConfiguration" Type="Self.VenueSeatConfiguration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SeatClass">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VenueSeatConfiguration">
+        <PropertyRef Name="SeatClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VenueSeat__Venue__440B1D61">
+    <End Role="Venue" Type="Self.Venue" Multiplicity="1" />
+    <End Role="VenueSeatConfiguration" Type="Self.VenueSeatConfiguration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venue">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VenueSeatConfiguration">
+        <PropertyRef Name="VenueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeamA">
+    <End Role="Team" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Match" Type="Self.Match" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Match">
+        <PropertyRef Name="TeamAId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeamB">
+    <End Role="Team" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Match" Type="Self.Match" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Match">
+        <PropertyRef Name="TeamBId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EsemkaCompetitionModelStoreContainer">
+    <EntitySet Name="Competition" EntityType="Self.Competition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompetitionPrice" EntityType="Self.CompetitionPrice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Level" EntityType="Self.Level" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Match" EntityType="Self.Match" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchRound" EntityType="Self.MatchRound" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MatchType" EntityType="Self.MatchType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SeatClass" EntityType="Self.SeatClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Team" EntityType="Self.Team" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ticket" EntityType="Self.Ticket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TicketDetail" EntityType="Self.TicketDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venue" EntityType="Self.Venue" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VenueSeatConfiguration" EntityType="Self.VenueSeatConfiguration" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Competiti__Compe__5AEE82B9" Association="Self.FK__Competiti__Compe__5AEE82B9">
+      <End Role="Competition" EntitySet="Competition" />
+      <End Role="CompetitionPrice" EntitySet="CompetitionPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Competiti__Level__5BE2A6F2" Association="Self.FK__Competiti__Level__5BE2A6F2">
+      <End Role="Level" EntitySet="Level" />
+      <End Role="CompetitionPrice" EntitySet="CompetitionPrice" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Competiti__Venue__412EB0B6" Association="Self.FK__Competiti__Venue__412EB0B6">
+      <End Role="Venue" EntitySet="Venue" />
+      <End Role="Competition" EntitySet="Competition" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Match__Competiti__49C3F6B7" Association="Self.FK__Match__Competiti__49C3F6B7">
+      <End Role="Competition" EntitySet="Competition" />
+      <End Role="Match" EntitySet="Match" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Match__LevelId__4BAC3F29" Association="Self.FK__Match__LevelId__4BAC3F29">
+      <End Role="Level" EntitySet="Level" />
+      <End Role="Match" EntitySet="Match" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Match__MatchType__4AB81AF0" Association="Self.FK__Match__MatchType__4AB81AF0">
+      <End Role="MatchType" EntitySet="MatchType" />
+      <End Role="Match" EntitySet="Match" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MatchRoun__Match__5070F446" Association="Self.FK__MatchRoun__Match__5070F446">
+      <End Role="Match" EntitySet="Match" />
+      <End Role="MatchRound" EntitySet="MatchRound" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket__MatchId__5441852A" Association="Self.FK__Ticket__MatchId__5441852A">
+      <End Role="Match" EntitySet="Match" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket__UserId__534D60F1" Association="Self.FK__Ticket__UserId__534D60F1">
+      <End Role="User" EntitySet="User" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TicketDet__SeatC__571DF1D5" Association="Self.FK__TicketDet__SeatC__571DF1D5">
+      <End Role="SeatClass" EntitySet="SeatClass" />
+      <End Role="TicketDetail" EntitySet="TicketDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TicketDet__Ticke__5812160E" Association="Self.FK__TicketDet__Ticke__5812160E">
+      <End Role="Ticket" EntitySet="Ticket" />
+      <End Role="TicketDetail" EntitySet="TicketDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VenueSeat__SeatC__44FF419A" Association="Self.FK__VenueSeat__SeatC__44FF419A">
+      <End Role="SeatClass" EntitySet="SeatClass" />
+      <End Role="VenueSeatConfiguration" EntitySet="VenueSeatConfiguration" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VenueSeat__Venue__440B1D61" Association="Self.FK__VenueSeat__Venue__440B1D61">
+      <End Role="Venue" EntitySet="Venue" />
+      <End Role="VenueSeatConfiguration" EntitySet="VenueSeatConfiguration" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeamA" Association="Self.FK_TeamA">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="Match" EntitySet="Match" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeamB" Association="Self.FK_TeamB">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="Match" EntitySet="Match" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

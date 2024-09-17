@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAPP.MainPage">
+
+    <NavigationPage.TitleView>
+        <Grid VerticalOptions="Center" RowDefinitions="70" ColumnDefinitions="*, 50">
+            <Label x:Name="Title" FontSize="20" Text="Seoul Stay Addon Services" FontFamily="TitleFont"/>
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout Margin="5" VerticalOptions="CenterAndExpand">
+            <Label Text="Enter username / password"/>
+            <Frame BorderColor="#3C280D" HeightRequest="400" BackgroundColor="Transparent">
+                <Grid RowDefinitions="50, 50, 50" ColumnDefinitions="120, *" VerticalOptions="Center">
+                    <Label Text="Username:"/>
+                    <Label Text="Password:" Grid.Row="1"/>
+
+                    <Entry x:Name="uEntry" Grid.Column="1"/>
+                    <Entry x:Name="pEntry" Grid.Column="1" Grid.Row="1" IsPassword="True"/>
+
+                    <Button Text="Login" Grid.Row="2" Grid.Column="1" WidthRequest="300" HorizontalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

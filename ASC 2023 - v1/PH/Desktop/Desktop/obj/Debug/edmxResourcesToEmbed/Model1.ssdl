@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ASC2023_PH_DesktopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bookings">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Guest" Type="varchar" MaxLength="45" />
+    <Property Name="Phone" Type="varchar" MaxLength="20" />
+    <Property Name="RoomID" Type="int" />
+    <Property Name="Date_From" Type="date" />
+    <Property Name="Date_To" Type="date" />
+    <Property Name="checkoutdate" Type="nchar" MaxLength="10" />
+    <Property Name="Total" Type="decimal" Precision="20" Scale="2" />
+    <Property Name="UserID" Type="int" />
+  </EntityType>
+  <EntityType Name="rooms">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomNumber" Type="int" />
+    <Property Name="Capacity" Type="int" />
+    <Property Name="RoomType" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Description" Type="text" />
+    <Property Name="Photo" Type="varchar" MaxLength="100" />
+    <Property Name="Availability" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="roomtype">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="role" Type="varchar" MaxLength="35" />
+    <Property Name="validity" Type="datetime" />
+    <Property Name="isActive" Type="smallint" />
+  </EntityType>
+  <Association Name="bookings_ibfk_1">
+    <End Role="rooms" Type="Self.rooms" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bookings" Type="Self.bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rooms">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="bookings">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="bookings_ibfk_2">
+    <End Role="users" Type="Self.users" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bookings" Type="Self.bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="bookings">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rooms_ibfk_1">
+    <End Role="roomtype" Type="Self.roomtype" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="rooms" Type="Self.rooms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roomtype">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rooms">
+        <PropertyRef Name="RoomType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ASC2023_PH_DesktopModelStoreContainer">
+    <EntitySet Name="bookings" EntityType="Self.bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="rooms" EntityType="Self.rooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roomtype" EntityType="Self.roomtype" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="bookings_ibfk_1" Association="Self.bookings_ibfk_1">
+      <End Role="rooms" EntitySet="rooms" />
+      <End Role="bookings" EntitySet="bookings" />
+    </AssociationSet>
+    <AssociationSet Name="bookings_ibfk_2" Association="Self.bookings_ibfk_2">
+      <End Role="users" EntitySet="users" />
+      <End Role="bookings" EntitySet="bookings" />
+    </AssociationSet>
+    <AssociationSet Name="rooms_ibfk_1" Association="Self.rooms_ibfk_1">
+      <End Role="roomtype" EntitySet="roomtype" />
+      <End Role="rooms" EntitySet="rooms" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

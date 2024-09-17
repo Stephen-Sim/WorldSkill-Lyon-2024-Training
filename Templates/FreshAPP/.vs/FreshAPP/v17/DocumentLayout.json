@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\freshapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|solutionrelative:freshapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\freshapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|solutionrelative:freshapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\freshapp\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|solutionrelative:freshapp\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\freshapp\\freshapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|solutionrelative:freshapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\freshapp\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91853BF9-9C96-4D8B-AD8D-14DC41DBBF71}|FreshAPP\\FreshAPP.csproj|solutionrelative:freshapp\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Form1.cs",
+              "RelativeDocumentMoniker": "FreshAPP\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Form1.cs",
+              "RelativeToolTip": "FreshAPP\\Form1.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:11:08.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Form1.cs",
+              "RelativeDocumentMoniker": "FreshAPP\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Form1.cs [Design]",
+              "RelativeToolTip": "FreshAPP\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:07:45.896Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Program.cs",
+              "RelativeDocumentMoniker": "FreshAPP\\Program.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\Program.cs",
+              "RelativeToolTip": "FreshAPP\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:02:50.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\BaseForm.cs",
+              "RelativeDocumentMoniker": "FreshAPP\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\BaseForm.cs",
+              "RelativeToolTip": "FreshAPP\\BaseForm.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwDMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:48:51.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\BaseForm.cs",
+              "RelativeDocumentMoniker": "FreshAPP\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\FreshAPP\\FreshAPP\\BaseForm.cs [Design]",
+              "RelativeToolTip": "FreshAPP\\BaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:48:13.762Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

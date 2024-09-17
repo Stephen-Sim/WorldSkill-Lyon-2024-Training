@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="925c226a910f466b92a1c979578b3167" Name="Diagram1">
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Competition" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.CompetitionPrice" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Level" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Match" Width="1.5" PointX="8.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.MatchRound" Width="1.5" PointX="10.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.MatchType" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.SeatClass" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Team" Width="1.5" PointX="6" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Ticket" Width="1.5" PointX="10.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.TicketDetail" Width="1.5" PointX="12.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.User" Width="1.5" PointX="8.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.Venue" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsemkaCompetitionModel.VenueSeatConfiguration" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Competiti__Compe__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Competiti__Venue__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Match__Competiti__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Competiti__Level__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Match__LevelId__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Match__MatchType__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__MatchRoun__Match__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Ticket__MatchId__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK_TeamA" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK_TeamB" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__TicketDet__SeatC__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__VenueSeat__SeatC__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__Ticket__UserId__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__TicketDet__Ticke__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="EsemkaCompetitionModel.FK__VenueSeat__Venue__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

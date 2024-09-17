@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Montserrat-Bold.ttf" />
+    <None Remove="Fonts\OpenSans-Regular.ttf" />
+    <None Remove="Imgs\001-home.png" />
+    <None Remove="Imgs\005-newspaper.png" />
+    <None Remove="Imgs\016-camera.png" />
+    <None Remove="Imgs\018-music.png" />
+    <None Remove="Imgs\028-connection.png" />
+    <None Remove="Imgs\085-printer.png" />
+    <None Remove="Imgs\100-drive.png" />
+    <None Remove="Imgs\143-key2.png" />
+    <None Remove="Imgs\146-wrench.png" />
+    <None Remove="Imgs\164-spoon-knife.png" />
+    <None Remove="Imgs\176-airplane.png" />
+    <None Remove="Imgs\207-eye.png" />
+    <None Remove="Imgs\214-contrast.png" />
+    <None Remove="Imgs\274-checkmark2.png" />
+    <None Remove="Imgs\295-volume-high.png" />
+    <None Remove="Imgs\341-radio-checked.png" />
+    <None Remove="Imgs\347-scissors.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Montserrat-Bold.ttf" />
+    <EmbeddedResource Include="Fonts\OpenSans-Regular.ttf" />
+    <EmbeddedResource Include="Imgs\001-home.png" />
+    <EmbeddedResource Include="Imgs\005-newspaper.png" />
+    <EmbeddedResource Include="Imgs\016-camera.png" />
+    <EmbeddedResource Include="Imgs\018-music.png" />
+    <EmbeddedResource Include="Imgs\028-connection.png" />
+    <EmbeddedResource Include="Imgs\085-printer.png" />
+    <EmbeddedResource Include="Imgs\100-drive.png" />
+    <EmbeddedResource Include="Imgs\143-key2.png" />
+    <EmbeddedResource Include="Imgs\146-wrench.png" />
+    <EmbeddedResource Include="Imgs\164-spoon-knife.png" />
+    <EmbeddedResource Include="Imgs\176-airplane.png" />
+    <EmbeddedResource Include="Imgs\207-eye.png" />
+    <EmbeddedResource Include="Imgs\214-contrast.png" />
+    <EmbeddedResource Include="Imgs\274-checkmark2.png" />
+    <EmbeddedResource Include="Imgs\295-volume-high.png" />
+    <EmbeddedResource Include="Imgs\341-radio-checked.png" />
+    <EmbeddedResource Include="Imgs\347-scissors.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\ServiceMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

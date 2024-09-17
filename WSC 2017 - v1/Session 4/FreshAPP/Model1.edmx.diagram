@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6bb595c2912f44499c6270e8124bca47" Name="Diagram1">
+        <EntityTypeShape EntityType="WSC2017_Session4Model.Airport" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2017_Session4Model.Answer" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2017_Session4Model.CabinType" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2017_Session4Model.DetailSurvey" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2017_Session4Model.Question" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WSC2017_Session4Model.Survey" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_Survey_Airport" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_Survey_Airport1" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_DetailSurvey_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_Survey_CabinType" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_DetailSurvey_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="WSC2017_Session4Model.FK_DetailSurvey_Survey" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

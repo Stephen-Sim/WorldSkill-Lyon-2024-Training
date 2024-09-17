@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\listofcharitiesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\listofcharitiesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\listofcharitiesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\listofcharitiesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsc2015 - v1\\session1\\session1\\sponsorrunnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\sponsorrunnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\sponsorrunnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\sponsorrunnerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\sponsorconfirmform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\sponsorconfirmform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\findoutmoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\findoutmoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\findoutmoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\findoutmoreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\coreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\coreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\usercontrols\\charityusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\usercontrols\\charityusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\mainscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\sponsorconfirmform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\sponsorconfirmform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\coreform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\coreform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\sponsorrunnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\sponsorrunnerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\coreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\coreform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\session1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10031F5-870A-4A87-8DAF-48AC07998833}|Session1\\Session1.csproj|solutionrelative:session1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainScreenForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\MainScreenForm.cs",
+              "RelativeDocumentMoniker": "Session1\\MainScreenForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\MainScreenForm.cs [Design]",
+              "RelativeToolTip": "Session1\\MainScreenForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:08:15.93Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListofCharitiesForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\ListofCharitiesForm.cs",
+              "RelativeDocumentMoniker": "Session1\\ListofCharitiesForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\ListofCharitiesForm.cs",
+              "RelativeToolTip": "Session1\\ListofCharitiesForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:01:11.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SponsorRunnerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.cs",
+              "RelativeDocumentMoniker": "Session1\\SponsorRunnerForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.cs [Design]",
+              "RelativeToolTip": "Session1\\SponsorRunnerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:14:28.123Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SponsorConfirmForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorConfirmForm.cs",
+              "RelativeDocumentMoniker": "Session1\\SponsorConfirmForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorConfirmForm.cs [Design]",
+              "RelativeToolTip": "Session1\\SponsorConfirmForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:18:58.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SponsorRunnerForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.cs",
+              "RelativeDocumentMoniker": "Session1\\SponsorRunnerForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.cs",
+              "RelativeToolTip": "Session1\\SponsorRunnerForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:15:08.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListofCharitiesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\ListofCharitiesForm.cs",
+              "RelativeDocumentMoniker": "Session1\\ListofCharitiesForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\ListofCharitiesForm.cs [Design]",
+              "RelativeToolTip": "Session1\\ListofCharitiesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:57:21.92Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FindOutMoreForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\FindOutMoreForm.cs",
+              "RelativeDocumentMoniker": "Session1\\FindOutMoreForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\FindOutMoreForm.cs [Design]",
+              "RelativeToolTip": "Session1\\FindOutMoreForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:53:40.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FindOutMoreForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\FindOutMoreForm.cs",
+              "RelativeDocumentMoniker": "Session1\\FindOutMoreForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\FindOutMoreForm.cs",
+              "RelativeToolTip": "Session1\\FindOutMoreForm.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:53:52.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoreForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.cs",
+              "RelativeDocumentMoniker": "Session1\\CoreForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.cs [Design]",
+              "RelativeToolTip": "Session1\\CoreForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:56:18.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharityUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\UserControls\\CharityUserControl.cs",
+              "RelativeDocumentMoniker": "Session1\\UserControls\\CharityUserControl.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\UserControls\\CharityUserControl.cs [Design]",
+              "RelativeToolTip": "Session1\\UserControls\\CharityUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T00:59:56.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainScreenForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\MainScreenForm.cs",
+              "RelativeDocumentMoniker": "Session1\\MainScreenForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\MainScreenForm.cs",
+              "RelativeToolTip": "Session1\\MainScreenForm.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:11:59.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SponsorConfirmForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorConfirmForm.cs",
+              "RelativeDocumentMoniker": "Session1\\SponsorConfirmForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorConfirmForm.cs",
+              "RelativeToolTip": "Session1\\SponsorConfirmForm.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:19:00.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoreForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.Designer.cs",
+              "RelativeDocumentMoniker": "Session1\\CoreForm.Designer.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.Designer.cs",
+              "RelativeToolTip": "Session1\\CoreForm.Designer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:58:22.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SponsorRunnerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.Designer.cs",
+              "RelativeDocumentMoniker": "Session1\\SponsorRunnerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\SponsorRunnerForm.Designer.cs",
+              "RelativeToolTip": "Session1\\SponsorRunnerForm.Designer.cs",
+              "ViewState": "AQIAACUBAAAAAAAAAAAUwDgBAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:50:37.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoreForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.cs",
+              "RelativeDocumentMoniker": "Session1\\CoreForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\CoreForm.cs",
+              "RelativeToolTip": "Session1\\CoreForm.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwD4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:58:40.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\Program.cs",
+              "RelativeDocumentMoniker": "Session1\\Program.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSC2015 - v1\\Session1\\Session1\\Program.cs",
+              "RelativeToolTip": "Session1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:11:26.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

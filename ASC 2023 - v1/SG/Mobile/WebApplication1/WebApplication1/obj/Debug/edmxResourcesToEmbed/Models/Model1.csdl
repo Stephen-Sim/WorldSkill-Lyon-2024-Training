@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sg_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Attempt">
+    <Key>
+      <PropertyRef Name="AttemptId" />
+    </Key>
+    <Property Name="AttemptId" Type="Int32" Nullable="false" />
+    <Property Name="QnId" Type="Int32" />
+    <Property Name="UserId" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Answer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateTime" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Question" Relationship="Self.FK_Attempts_Questions" FromRole="Attempts" ToRole="Questions" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Attempts_Users" FromRole="Attempts" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QnId" />
+    </Key>
+    <Property Name="QnId" Type="Int32" Nullable="false" />
+    <Property Name="QuizId" Type="Int32" />
+    <Property Name="OptionA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OptionB" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OptionC" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OptionD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CorrectAnswer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Attempts" Relationship="Self.FK_Attempts_Questions" FromRole="Questions" ToRole="Attempts" />
+    <NavigationProperty Name="Quizze" Relationship="Self.FK_Questions_Quizzes" FromRole="Questions" ToRole="Quizzes" />
+    <Property Name="Question1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Quizze">
+    <Key>
+      <PropertyRef Name="QuizId" />
+    </Key>
+    <Property Name="QuizId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ForExpert" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="ForCompetitor" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Questions" Relationship="Self.FK_Questions_Quizzes" FromRole="Quizzes" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Attempts" Relationship="Self.FK_Attempts_Users" FromRole="Users" ToRole="Attempts" />
+  </EntityType>
+  <Association Name="FK_Attempts_Questions">
+    <End Role="Questions" Type="Self.Question" Multiplicity="0..1" />
+    <End Role="Attempts" Type="Self.Attempt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QnId" />
+      </Principal>
+      <Dependent Role="Attempts">
+        <PropertyRef Name="QnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attempts_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Attempts" Type="Self.Attempt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Attempts">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_Quizzes">
+    <End Role="Quizzes" Type="Self.Quizze" Multiplicity="0..1" />
+    <End Role="Questions" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quizzes">
+        <PropertyRef Name="QuizId" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="QuizId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sg_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attempts" EntityType="Self.Attempt" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Quizzes" EntityType="Self.Quizze" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Attempts_Questions" Association="Self.FK_Attempts_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Attempts" EntitySet="Attempts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attempts_Users" Association="Self.FK_Attempts_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Attempts" EntitySet="Attempts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_Quizzes" Association="Self.FK_Questions_Quizzes">
+      <End Role="Quizzes" EntitySet="Quizzes" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

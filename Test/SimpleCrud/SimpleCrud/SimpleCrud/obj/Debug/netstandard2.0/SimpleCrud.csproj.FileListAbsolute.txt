@@ -1,0 +1,17 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\bin\Debug\netstandard2.0\SimpleCrud.deps.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\bin\Debug\netstandard2.0\SimpleCrud.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\bin\Debug\netstandard2.0\ref\SimpleCrud.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\bin\Debug\netstandard2.0\SimpleCrud.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\Views\UserPage.xaml.g.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.AssemblyInfoInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.AssemblyInfo.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.sourcelink.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\refint\SimpleCrud.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Test\SimpleCrud\SimpleCrud\SimpleCrud\obj\Debug\netstandard2.0\SimpleCrud.pdb

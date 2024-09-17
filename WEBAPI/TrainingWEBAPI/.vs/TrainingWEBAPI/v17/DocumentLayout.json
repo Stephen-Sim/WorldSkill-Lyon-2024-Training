@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\webapi\\trainingwebapi\\trainingwebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|solutionrelative:trainingwebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\webapi\\trainingwebapi\\trainingwebapi\\models\\sgdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|solutionrelative:trainingwebapi\\models\\sgdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\webapi\\trainingwebapi\\trainingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E12B8EEF-F87A-4EAA-89B4-2C40C45D8A08}|TrainingWEBAPI\\TrainingWEBAPI.csproj|solutionrelative:trainingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "TrainingWEBAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "TrainingWEBAPI\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:44:16.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TrainingWEBAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Program.cs",
+              "RelativeToolTip": "TrainingWEBAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:43:24.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SgDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Models\\SgDbContext.cs",
+              "RelativeDocumentMoniker": "TrainingWEBAPI\\Models\\SgDbContext.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WEBAPI\\TrainingWEBAPI\\TrainingWEBAPI\\Models\\SgDbContext.cs*",
+              "RelativeToolTip": "TrainingWEBAPI\\Models\\SgDbContext.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:43:20.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

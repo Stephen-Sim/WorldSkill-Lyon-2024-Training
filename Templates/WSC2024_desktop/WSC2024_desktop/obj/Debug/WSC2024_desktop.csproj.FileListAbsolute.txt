@@ -1,0 +1,11 @@
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\bin\Debug\WSC2024_desktop.exe.config
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\bin\Debug\WSC2024_desktop.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\bin\Debug\WSC2024_desktop.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.Form1.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.Properties.Resources.resources
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.csproj.GenerateResource.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Templates\WSC2024_desktop\WSC2024_desktop\obj\Debug\WSC2024_desktop.Login.resources

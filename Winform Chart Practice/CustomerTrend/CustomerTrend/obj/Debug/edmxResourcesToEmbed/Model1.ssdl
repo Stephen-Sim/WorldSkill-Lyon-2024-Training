@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="chartPracticeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="255" />
+    <Property Name="ItemPurchased" Type="nvarchar" MaxLength="255" />
+    <Property Name="Category" Type="nvarchar" MaxLength="255" />
+    <Property Name="PurchaseAmount" Type="int" />
+    <Property Name="Location" Type="nvarchar" MaxLength="255" />
+    <Property Name="Size" Type="nvarchar" MaxLength="255" />
+    <Property Name="Color" Type="nvarchar" MaxLength="255" />
+    <Property Name="Season" Type="nvarchar" MaxLength="255" />
+    <Property Name="ReviewRating" Type="decimal" Precision="5" Scale="1" />
+    <Property Name="SubscriptionStatus" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShippingType" Type="nvarchar" MaxLength="255" />
+    <Property Name="DiscountApplied" Type="nvarchar" MaxLength="255" />
+    <Property Name="PromoCodeUsed" Type="nvarchar" MaxLength="255" />
+    <Property Name="PreviousPurchases" Type="int" />
+    <Property Name="PaymentMethod" Type="nvarchar" MaxLength="255" />
+    <Property Name="FrequencyOfPurchases" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="chartPracticeModelStoreContainer">
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

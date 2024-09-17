@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\searchroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\searchroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\searchroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\searchroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\bookroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\bookroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\bookroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\bookroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\roomdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\roomdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\roomdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\roomdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\usercontrols\\roomusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\usercontrols\\roomusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\usercontrols\\roomusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\usercontrols\\roomusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\ph\\desktop\\desktop\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{2BDF268A-1DB1-42F0-961E-B814DCBC7E3C}|Desktop\\Desktop.csproj|solutionrelative:desktop\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookRoomForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\BookRoomForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\BookRoomForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\BookRoomForm.cs [Design]",
+              "RelativeToolTip": "Desktop\\BookRoomForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:41:28.113Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomDetailsForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\RoomDetailsForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\RoomDetailsForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\RoomDetailsForm.cs",
+              "RelativeToolTip": "Desktop\\RoomDetailsForm.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:38:12.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchRoomForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\SearchRoomForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\SearchRoomForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\SearchRoomForm.cs [Design]",
+              "RelativeToolTip": "Desktop\\SearchRoomForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:42:39.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchRoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\SearchRoomForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\SearchRoomForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\SearchRoomForm.cs",
+              "RelativeToolTip": "Desktop\\SearchRoomForm.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwLIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:42:41.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "Desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Form1.cs [Design]",
+              "RelativeToolTip": "Desktop\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:31:47.765Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "Desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Form1.cs",
+              "RelativeToolTip": "Desktop\\Form1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:36:09.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomDetailsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\RoomDetailsForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\RoomDetailsForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\RoomDetailsForm.cs [Design]",
+              "RelativeToolTip": "Desktop\\RoomDetailsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:12:40.591Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookRoomForm.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\BookRoomForm.cs",
+              "RelativeDocumentMoniker": "Desktop\\BookRoomForm.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\BookRoomForm.cs",
+              "RelativeToolTip": "Desktop\\BookRoomForm.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAArwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:55:46.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Model1.edmx",
+              "RelativeDocumentMoniker": "Desktop\\Model1.edmx",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Desktop\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-26T08:33:45.948Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\UserControls\\RoomUserControl.cs",
+              "RelativeDocumentMoniker": "Desktop\\UserControls\\RoomUserControl.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\UserControls\\RoomUserControl.cs [Design]",
+              "RelativeToolTip": "Desktop\\UserControls\\RoomUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:44:00.342Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Desktop\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\Properties\\Resources.resx",
+              "RelativeToolTip": "Desktop\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-26T08:49:49.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoomUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\UserControls\\RoomUserControl.cs",
+              "RelativeDocumentMoniker": "Desktop\\UserControls\\RoomUserControl.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\PH\\Desktop\\Desktop\\UserControls\\RoomUserControl.cs",
+              "RelativeToolTip": "Desktop\\UserControls\\RoomUserControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:58:17.732Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

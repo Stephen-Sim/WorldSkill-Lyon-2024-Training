@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\wsc2024_desktop\\wsc2024_desktop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|solutionrelative:wsc2024_desktop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\wsc2024_desktop\\wsc2024_desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|solutionrelative:wsc2024_desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\wsc2024_desktop\\wsc2024_desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|solutionrelative:wsc2024_desktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\wsc2024_desktop\\wsc2024_desktop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|solutionrelative:wsc2024_desktop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\templates\\wsc2024_desktop\\wsc2024_desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED830D2-6ABC-4A36-9CD8-68F022CAEF2C}|WSC2024_desktop\\WSC2024_desktop.csproj|solutionrelative:wsc2024_desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Login.cs",
+              "RelativeDocumentMoniker": "WSC2024_desktop\\Login.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Login.cs",
+              "RelativeToolTip": "WSC2024_desktop\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:14:02.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Program.cs",
+              "RelativeDocumentMoniker": "WSC2024_desktop\\Program.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Program.cs",
+              "RelativeToolTip": "WSC2024_desktop\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:04:05.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Login.cs",
+              "RelativeDocumentMoniker": "WSC2024_desktop\\Login.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Login.cs [Design]",
+              "RelativeToolTip": "WSC2024_desktop\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:10:49.949Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "WSC2024_desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Form1.cs",
+              "RelativeToolTip": "WSC2024_desktop\\Form1.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAMwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:59:14.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Form1.cs",
+              "RelativeDocumentMoniker": "WSC2024_desktop\\Form1.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\Templates\\WSC2024_desktop\\WSC2024_desktop\\Form1.cs [Design]",
+              "RelativeToolTip": "WSC2024_desktop\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:56:29.769Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

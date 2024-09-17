@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\models\\competitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\models\\competitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\views\\sponsorpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\views\\sponsorpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\views\\sponsorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\views\\sponsorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\asc 2023 - v1\\my\\mobile\\mobileapp\\mobileapp\\mobileapp\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DFF9737-A98E-4FFC-92A1-32B55065EC3D}|MobileAPP\\MobileAPP\\MobileAPP.csproj|solutionrelative:mobileapp\\mobileapp\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SponsorPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:30:06.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SponsorPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Views\\SponsorPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-14T14:29:40.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Competitor.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Models\\Competitor.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Models\\Competitor.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Models\\Competitor.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Models\\Competitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:19:23.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIService.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Services\\APIService.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\Services\\APIService.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\Services\\APIService.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\Services\\APIService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:03:18.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\App.xaml.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:02:52.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\MainPage.xaml.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\MainPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:02:49.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\MainPage.xaml",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-14T14:02:47.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.g.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\ASC 2023 - v1\\MY\\Mobile\\MobileAPP\\MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "RelativeToolTip": "MobileAPP\\MobileAPP\\obj\\Debug\\netstandard2.0\\MainPage.xaml.g.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:51:51.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

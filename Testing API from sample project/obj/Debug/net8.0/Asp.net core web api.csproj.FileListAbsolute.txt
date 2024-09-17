@@ -1,0 +1,708 @@
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\appsettings.Development.json
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\appsettings.json
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.exe
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.deps.json
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.runtimeconfig.json
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.pdb
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.AssemblyReference.cache
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfoInputs.cache
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfo.cs
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.CoreCompileInputs.cache
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cs
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cache
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.build.json
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.development.json
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.Asp.net core web api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.net core web api.props
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.net core web api.props
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.net core web api.props
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\scopedcss\bundle\Asp.net core web api.styles.css
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.CopyComplete
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.dll
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\refint\Asp.net core web api.dll
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.pdb
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.genruntimeconfig.cache
+D:\source\WS2024\Asp.net core web api\obj\Debug\net8.0\ref\Asp.net core web api.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\AutoMapper.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Azure.Core.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Azure.Identity.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Castle.Core.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Humanizer.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.CodeDom.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Memory.Data.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\source\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\appsettings.Development.json
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\appsettings.json
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.exe
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.deps.json
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.runtimeconfig.json
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.pdb
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\AutoMapper.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Azure.Core.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Castle.Core.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Humanizer.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Sample Project\WS2024\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.AssemblyReference.cache
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfoInputs.cache
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfo.cs
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.CoreCompileInputs.cache
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cs
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cache
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.Asp.net core web api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.net core web api.props
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.net core web api.props
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.net core web api.props
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\scopedcss\bundle\Asp.net core web api.styles.css
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net .D877C59E.Up2Date
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.dll
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\refint\Asp.net core web api.dll
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.pdb
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.genruntimeconfig.cache
+C:\Sample Project\WS2024\Asp.net core web api\obj\Debug\net8.0\ref\Asp.net core web api.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\appsettings.Development.json
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\appsettings.json
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.exe
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.deps.json
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.runtimeconfig.json
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Asp.net core web api.pdb
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\AutoMapper.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Azure.Core.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Castle.Core.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Humanizer.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.AssemblyReference.cache
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfoInputs.cache
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.AssemblyInfo.cs
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.csproj.CoreCompileInputs.cache
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cs
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cache
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.Asp.net core web api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.net core web api.props
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.net core web api.props
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.net core web api.props
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\scopedcss\bundle\Asp.net core web api.styles.css
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net .D877C59E.Up2Date
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\refint\Asp.net core web api.dll
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.pdb
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\Asp.net core web api.genruntimeconfig.cache
+C:\Sample Project\DotNetSample\Asp.net core web api\obj\Debug\net8.0\ref\Asp.net core web api.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\appsettings.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Asp.net core web api.exe
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Asp.net core web api.deps.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Asp.net core web api.runtimeconfig.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Asp.net core web api.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Asp.net core web api.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Humanizer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.csproj.AssemblyReference.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.AssemblyInfoInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.AssemblyInfo.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.csproj.CoreCompileInputs.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.sourcelink.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets\msbuild.Asp.net core web api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets\msbuild.build.Asp.net core web api.props
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Asp.net core web api.props
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Asp.net core web api.props
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\scopedcss\bundle\Asp.net core web api.styles.css
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net .D877C59E.Up2Date
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\refint\Asp.net core web api.dll
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.pdb
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\Asp.net core web api.genruntimeconfig.cache
+C:\Users\simsh\Desktop\WorldSkills-Training\Testing API from sample project\obj\Debug\net8.0\ref\Asp.net core web api.dll

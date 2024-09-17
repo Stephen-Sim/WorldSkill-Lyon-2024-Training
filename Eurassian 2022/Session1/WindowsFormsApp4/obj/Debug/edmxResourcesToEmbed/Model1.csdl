@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Eurassian2022Session1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ChatId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_Client1" FromRole="Client" ToRole="WorkRequest" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DateOfBirth" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_Employee1" FromRole="Employee" ToRole="WorkRequest" />
+    <NavigationProperty Name="Schedules" Relationship="Self.fk_Schedule_Employee1" FromRole="Employee" ToRole="Schedule" />
+    <NavigationProperty Name="WorkTypes" Relationship="Self.WorkTypeOfEmployee" FromRole="Employee" ToRole="WorkType" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="DayOfWeek" Type="Int32" Nullable="false" />
+    <Property Name="StartWorkTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="FinishWorkTime" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Employee" Relationship="Self.fk_Schedule_Employee1" FromRole="Schedule" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="WorkRequest">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ClientId" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="FullfilledDate" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TaskDescription" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="IsAccepted" Type="Boolean" />
+    <Property Name="BeginWorkTime" Type="DateTime" Precision="7" />
+    <Property Name="CompleteWorkTime" Type="DateTime" Precision="7" />
+    <Property Name="WorkTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Client" Relationship="Self.fk_BuildingRequest_Client1" FromRole="WorkRequest" ToRole="Client" />
+    <NavigationProperty Name="Employee" Relationship="Self.fk_BuildingRequest_Employee1" FromRole="WorkRequest" ToRole="Employee" />
+    <NavigationProperty Name="WorkType" Relationship="Self.fk_BuildingRequest_WorkType1" FromRole="WorkRequest" ToRole="WorkType" />
+  </EntityType>
+  <EntityType Name="WorkType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_WorkType1" FromRole="WorkType" ToRole="WorkRequest" />
+    <NavigationProperty Name="Employees" Relationship="Self.WorkTypeOfEmployee" FromRole="WorkType" ToRole="Employee" />
+  </EntityType>
+  <Association Name="fk_BuildingRequest_Client1">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkRequest">
+        <PropertyRef Name="ClientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_BuildingRequest_Employee1">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkRequest">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Schedule_Employee1">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Schedule">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_BuildingRequest_WorkType1">
+    <End Role="WorkType" Type="Self.WorkType" Multiplicity="1" />
+    <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkRequest">
+        <PropertyRef Name="WorkTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="WorkTypeOfEmployee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <End Role="WorkType" Type="Self.WorkType" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Eurassian2022Session1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="Self.Client" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Schedules" EntityType="Self.Schedule" />
+    <EntitySet Name="WorkRequests" EntityType="Self.WorkRequest" />
+    <EntitySet Name="WorkTypes" EntityType="Self.WorkType" />
+    <AssociationSet Name="fk_BuildingRequest_Client1" Association="Self.fk_BuildingRequest_Client1">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="WorkRequest" EntitySet="WorkRequests" />
+    </AssociationSet>
+    <AssociationSet Name="fk_BuildingRequest_Employee1" Association="Self.fk_BuildingRequest_Employee1">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="WorkRequest" EntitySet="WorkRequests" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Schedule_Employee1" Association="Self.fk_Schedule_Employee1">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Schedule" EntitySet="Schedules" />
+    </AssociationSet>
+    <AssociationSet Name="fk_BuildingRequest_WorkType1" Association="Self.fk_BuildingRequest_WorkType1">
+      <End Role="WorkType" EntitySet="WorkTypes" />
+      <End Role="WorkRequest" EntitySet="WorkRequests" />
+    </AssociationSet>
+    <AssociationSet Name="WorkTypeOfEmployee" Association="Self.WorkTypeOfEmployee">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="WorkType" EntitySet="WorkTypes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

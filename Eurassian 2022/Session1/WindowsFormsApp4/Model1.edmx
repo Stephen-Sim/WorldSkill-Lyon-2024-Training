@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Eurassian2022Session1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ChatId" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="MiddleName" Type="varchar" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DateOfBirth" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Comment" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="EmployeeId" Type="int" Nullable="false" />
+          <Property Name="DayOfWeek" Type="int" Nullable="false" />
+          <Property Name="StartWorkTime" Type="time" Precision="7" Nullable="false" />
+          <Property Name="FinishWorkTime" Type="time" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WorkRequest">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ClientId" Type="int" Nullable="false" />
+          <Property Name="CreateTime" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="EmployeeId" Type="int" Nullable="false" />
+          <Property Name="FullfilledDate" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="TaskDescription" Type="varchar" MaxLength="300" />
+          <Property Name="IsAccepted" Type="bit" />
+          <Property Name="BeginWorkTime" Type="datetime2" Precision="7" />
+          <Property Name="CompleteWorkTime" Type="datetime2" Precision="7" />
+          <Property Name="WorkTypeId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WorkType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Price" Type="int" Nullable="false" />
+          <Property Name="Description" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="WorkTypeOfEmployee">
+          <Key>
+            <PropertyRef Name="WorkTypeId" />
+            <PropertyRef Name="EmployeeId" />
+          </Key>
+          <Property Name="WorkTypeId" Type="int" Nullable="false" />
+          <Property Name="EmployeeId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_BuildingRequest_Client1">
+          <End Role="Client" Type="Self.Client" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="ClientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BuildingRequest_Employee1">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="EmployeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BuildingRequest_WorkType1">
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WorkType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="WorkTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Employee_has_WorkType_Employee">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="WorkTypeOfEmployee" Type="Self.WorkTypeOfEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkTypeOfEmployee">
+              <PropertyRef Name="EmployeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Employee_has_WorkType_WorkType1">
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="1" />
+          <End Role="WorkTypeOfEmployee" Type="Self.WorkTypeOfEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WorkType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkTypeOfEmployee">
+              <PropertyRef Name="WorkTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Schedule_Employee1">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="EmployeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Eurassian2022Session1ModelStoreContainer">
+          <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Schedule" EntityType="Self.Schedule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkRequest" EntityType="Self.WorkRequest" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkType" EntityType="Self.WorkType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkTypeOfEmployee" EntityType="Self.WorkTypeOfEmployee" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk_BuildingRequest_Client1" Association="Self.fk_BuildingRequest_Client1">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="WorkRequest" EntitySet="WorkRequest" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BuildingRequest_Employee1" Association="Self.fk_BuildingRequest_Employee1">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="WorkRequest" EntitySet="WorkRequest" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BuildingRequest_WorkType1" Association="Self.fk_BuildingRequest_WorkType1">
+            <End Role="WorkType" EntitySet="WorkType" />
+            <End Role="WorkRequest" EntitySet="WorkRequest" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Employee_has_WorkType_Employee" Association="Self.fk_Employee_has_WorkType_Employee">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="WorkTypeOfEmployee" EntitySet="WorkTypeOfEmployee" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Employee_has_WorkType_WorkType1" Association="Self.fk_Employee_has_WorkType_WorkType1">
+            <End Role="WorkType" EntitySet="WorkType" />
+            <End Role="WorkTypeOfEmployee" EntitySet="WorkTypeOfEmployee" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Schedule_Employee1" Association="Self.fk_Schedule_Employee1">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="Schedule" EntitySet="Schedule" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Eurassian2022Session1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ChatId" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_Client1" FromRole="Client" ToRole="WorkRequest" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateOfBirth" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_Employee1" FromRole="Employee" ToRole="WorkRequest" />
+          <NavigationProperty Name="Schedules" Relationship="Self.fk_Schedule_Employee1" FromRole="Employee" ToRole="Schedule" />
+          <NavigationProperty Name="WorkTypes" Relationship="Self.WorkTypeOfEmployee" FromRole="Employee" ToRole="WorkType" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+          <Property Name="DayOfWeek" Type="Int32" Nullable="false" />
+          <Property Name="StartWorkTime" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="FinishWorkTime" Type="Time" Nullable="false" Precision="7" />
+          <NavigationProperty Name="Employee" Relationship="Self.fk_Schedule_Employee1" FromRole="Schedule" ToRole="Employee" />
+        </EntityType>
+        <EntityType Name="WorkRequest">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ClientId" Type="Int32" Nullable="false" />
+          <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+          <Property Name="FullfilledDate" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TaskDescription" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="IsAccepted" Type="Boolean" />
+          <Property Name="BeginWorkTime" Type="DateTime" Precision="7" />
+          <Property Name="CompleteWorkTime" Type="DateTime" Precision="7" />
+          <Property Name="WorkTypeId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Client" Relationship="Self.fk_BuildingRequest_Client1" FromRole="WorkRequest" ToRole="Client" />
+          <NavigationProperty Name="Employee" Relationship="Self.fk_BuildingRequest_Employee1" FromRole="WorkRequest" ToRole="Employee" />
+          <NavigationProperty Name="WorkType" Relationship="Self.fk_BuildingRequest_WorkType1" FromRole="WorkRequest" ToRole="WorkType" />
+        </EntityType>
+        <EntityType Name="WorkType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="WorkRequests" Relationship="Self.fk_BuildingRequest_WorkType1" FromRole="WorkType" ToRole="WorkRequest" />
+          <NavigationProperty Name="Employees" Relationship="Self.WorkTypeOfEmployee" FromRole="WorkType" ToRole="Employee" />
+        </EntityType>
+        <Association Name="fk_BuildingRequest_Client1">
+          <End Role="Client" Type="Self.Client" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="ClientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BuildingRequest_Employee1">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="EmployeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Schedule_Employee1">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="EmployeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BuildingRequest_WorkType1">
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="1" />
+          <End Role="WorkRequest" Type="Self.WorkRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WorkType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="WorkRequest">
+              <PropertyRef Name="WorkTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="WorkTypeOfEmployee">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="Eurassian2022Session1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clients" EntityType="Self.Client" />
+          <EntitySet Name="Employees" EntityType="Self.Employee" />
+          <EntitySet Name="Schedules" EntityType="Self.Schedule" />
+          <EntitySet Name="WorkRequests" EntityType="Self.WorkRequest" />
+          <EntitySet Name="WorkTypes" EntityType="Self.WorkType" />
+          <AssociationSet Name="fk_BuildingRequest_Client1" Association="Self.fk_BuildingRequest_Client1">
+            <End Role="Client" EntitySet="Clients" />
+            <End Role="WorkRequest" EntitySet="WorkRequests" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BuildingRequest_Employee1" Association="Self.fk_BuildingRequest_Employee1">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="WorkRequest" EntitySet="WorkRequests" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Schedule_Employee1" Association="Self.fk_Schedule_Employee1">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="Schedule" EntitySet="Schedules" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BuildingRequest_WorkType1" Association="Self.fk_BuildingRequest_WorkType1">
+            <End Role="WorkType" EntitySet="WorkTypes" />
+            <End Role="WorkRequest" EntitySet="WorkRequests" />
+          </AssociationSet>
+          <AssociationSet Name="WorkTypeOfEmployee" Association="Self.WorkTypeOfEmployee">
+            <End Role="Employee" EntitySet="Employees" />
+            <End Role="WorkType" EntitySet="WorkTypes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Eurassian2022Session1ModelStoreContainer" CdmEntityContainer="Eurassian2022Session1Entities">
+          <EntitySetMapping Name="Clients">
+            <EntityTypeMapping TypeName="Eurassian2022Session1Model.Client">
+              <MappingFragment StoreEntitySet="Client">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="Eurassian2022Session1Model.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Schedules">
+            <EntityTypeMapping TypeName="Eurassian2022Session1Model.Schedule">
+              <MappingFragment StoreEntitySet="Schedule">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+                <ScalarProperty Name="DayOfWeek" ColumnName="DayOfWeek" />
+                <ScalarProperty Name="StartWorkTime" ColumnName="StartWorkTime" />
+                <ScalarProperty Name="FinishWorkTime" ColumnName="FinishWorkTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkRequests">
+            <EntityTypeMapping TypeName="Eurassian2022Session1Model.WorkRequest">
+              <MappingFragment StoreEntitySet="WorkRequest">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+                <ScalarProperty Name="FullfilledDate" ColumnName="FullfilledDate" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
+                <ScalarProperty Name="IsAccepted" ColumnName="IsAccepted" />
+                <ScalarProperty Name="BeginWorkTime" ColumnName="BeginWorkTime" />
+                <ScalarProperty Name="CompleteWorkTime" ColumnName="CompleteWorkTime" />
+                <ScalarProperty Name="WorkTypeId" ColumnName="WorkTypeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkTypes">
+            <EntityTypeMapping TypeName="Eurassian2022Session1Model.WorkType">
+              <MappingFragment StoreEntitySet="WorkType">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="WorkTypeOfEmployee" TypeName="Eurassian2022Session1Model.WorkTypeOfEmployee" StoreEntitySet="WorkTypeOfEmployee">
+            <EndProperty Name="Employee">
+              <ScalarProperty Name="Id" ColumnName="EmployeeId" />
+            </EndProperty>
+            <EndProperty Name="WorkType">
+              <ScalarProperty Name="Id" ColumnName="WorkTypeId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

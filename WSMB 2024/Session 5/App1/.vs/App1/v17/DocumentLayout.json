@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\collectparcelpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\collectparcelpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\partnerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\partnerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\validatepasscodepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\validatepasscodepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1.android\\properties\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|solutionrelative:app1\\app1.android\\properties\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\models\\pathpartnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\models\\pathpartnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\partnerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\partnerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\models\\parcels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\models\\parcels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\models\\collectparcelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\models\\collectparcelrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\collectparcelpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\collectparcelpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\views\\validatepasscodepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\views\\validatepasscodepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1\\app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6CF5EF4-3A65-4989-BAED-95A79EA469F9}|App1\\App1\\App1.csproj|solutionrelative:app1\\app1\\app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|solutionrelative:app1\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|c:\\users\\simsh\\desktop\\worldskills-training\\wsmb 2024\\session 5\\app1\\app1\\app1.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1C5883-D4B8-47DB-807F-0FEE523F5DEE}|App1\\App1.Android\\App1.Android.csproj|solutionrelative:app1\\app1.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "App1\\App1.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "App1\\App1.Android\\Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-23T00:06:38.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PathPartnerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\PathPartnerDTO.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Models\\PathPartnerDTO.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\PathPartnerDTO.cs",
+              "RelativeToolTip": "App1\\App1\\Models\\PathPartnerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T23:58:02.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CollectParcelRequest.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\CollectParcelRequest.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Models\\CollectParcelRequest.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\CollectParcelRequest.cs",
+              "RelativeToolTip": "App1\\App1\\Models\\CollectParcelRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:22:24.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Parcels.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\Parcels.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Models\\Parcels.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\Parcels.cs",
+              "RelativeToolTip": "App1\\App1\\Models\\Parcels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T07:08:22.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartnerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\PartnerPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\PartnerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\PartnerPage.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\Views\\PartnerPage.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:57:50.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PartnerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\PartnerPage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\PartnerPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\PartnerPage.xaml",
+              "RelativeToolTip": "App1\\App1\\Views\\PartnerPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T06:57:02.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectParcelPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\CollectParcelPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\CollectParcelPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\CollectParcelPage.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\Views\\CollectParcelPage.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAowCIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:47:05.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CollectParcelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\CollectParcelPage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\CollectParcelPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\CollectParcelPage.xaml",
+              "RelativeToolTip": "App1\\App1\\Views\\CollectParcelPage.xaml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T06:47:03.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidatePasscodePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\ValidatePasscodePage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\ValidatePasscodePage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\ValidatePasscodePage.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\Views\\ValidatePasscodePage.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:38:35.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidatePasscodePage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\ValidatePasscodePage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\Views\\ValidatePasscodePage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Views\\ValidatePasscodePage.xaml",
+              "RelativeToolTip": "App1\\App1\\Views\\ValidatePasscodePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T06:38:33.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Models\\User.cs",
+              "RelativeToolTip": "App1\\App1\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:36:54.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\Services\\ApiService.cs",
+              "RelativeToolTip": "App1\\App1\\Services\\ApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:32:27.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App1",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App1.csproj",
+              "RelativeDocumentMoniker": "App1\\App1\\App1.csproj",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App1.csproj",
+              "RelativeToolTip": "App1\\App1\\App1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T06:31:54.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\MainPage.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:20:22.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:20:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\App.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\App.xaml",
+              "RelativeToolTip": "App1\\App1\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T06:20:10.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1\\MainPage.xaml",
+              "RelativeToolTip": "App1\\App1\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T06:20:05.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "App1\\App1.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\MainActivity.cs",
+              "RelativeToolTip": "App1\\App1.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:14:36.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "App1\\App1.Android\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\simsh\\Desktop\\WorldSkills-Training\\WSMB 2024\\Session 5\\App1\\App1\\App1.Android\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "App1\\App1.Android\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:14:09.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

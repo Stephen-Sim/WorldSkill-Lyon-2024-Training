@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAPP.App">
+    <Application.Resources>
+        <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="#FFFAF0"/>
+            <Setter Property="BarBackgroundColor" Value="#D4A017"/>
+        </Style>
+        
+        <Style TargetType="Label" ApplyToDerivedTypes="True">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="#3C280D"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style TargetType="Button" ApplyToDerivedTypes="True">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="#3C280D"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="BackgroundColor" Value="#A4C2D6"/>
+        </Style>
+
+        <Style TargetType="Entry" ApplyToDerivedTypes="True">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="#3C280D"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style TargetType="Picker" ApplyToDerivedTypes="True">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="#3C280D"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style TargetType="DatePicker" ApplyToDerivedTypes="True">
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="#3C280D"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </Application.Resources>
+</Application>

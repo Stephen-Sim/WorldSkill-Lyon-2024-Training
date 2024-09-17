@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="logistic_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="fromArea" Type="bigint" />
+    <Property Name="toArea" Type="bigint" />
+  </EntityType>
+  <EntityType Name="AttemptHistory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="partnerId" Type="bigint" Nullable="false" />
+    <Property Name="SecurityQuesId" Type="bigint" Nullable="false" />
+    <Property Name="result" Type="bit" />
+    <Property Name="attemptTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Parcel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="pathId" Type="bigint" Nullable="false" />
+    <Property Name="parcelTypeId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ParcelType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Partner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="securityQuesId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="areaId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="tel_no" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Path">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="start_area" Type="bigint" Nullable="false" />
+    <Property Name="end_area" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Path_Partner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="partnerId" Type="bigint" />
+    <Property Name="isFirst" Type="bit" Nullable="false" />
+    <Property Name="nextNode" Type="bigint" />
+    <Property Name="pathId" Type="bigint" Nullable="false" />
+    <Property Name="areaId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Path_Partner_Parcel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="deliverTime" Type="datetime" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="parcelId" Type="bigint" Nullable="false" />
+    <Property Name="image" Type="varbinary(max)" />
+    <Property Name="path_partner_id" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SecurityQuestion">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="question" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="answer" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Area_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="Area1" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Area1">
+        <PropertyRef Name="fromArea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Area_Area1">
+    <End Role="Area" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="Area1" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Area1">
+        <PropertyRef Name="toArea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AttemptHistory_Partner">
+    <End Role="Partner" Type="Self.Partner" Multiplicity="1" />
+    <End Role="AttemptHistory" Type="Self.AttemptHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Partner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="AttemptHistory">
+        <PropertyRef Name="partnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AttemptHistory_SecurityQuestion">
+    <End Role="SecurityQuestion" Type="Self.SecurityQuestion" Multiplicity="1" />
+    <End Role="AttemptHistory" Type="Self.AttemptHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SecurityQuestion">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="AttemptHistory">
+        <PropertyRef Name="SecurityQuesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Parcel_ParcelType">
+    <End Role="ParcelType" Type="Self.ParcelType" Multiplicity="1" />
+    <End Role="Parcel" Type="Self.Parcel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ParcelType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Parcel">
+        <PropertyRef Name="parcelTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Parcel_Path">
+    <End Role="Path" Type="Self.Path" Multiplicity="1" />
+    <End Role="Parcel" Type="Self.Parcel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Path">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Parcel">
+        <PropertyRef Name="pathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Area1">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Path" Type="Self.Path" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path">
+        <PropertyRef Name="start_area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Area2">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Path" Type="Self.Path" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path">
+        <PropertyRef Name="end_area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Path_Partner" Type="Self.Path_Partner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner">
+        <PropertyRef Name="areaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Parcel_Path_Partner">
+    <End Role="Path_Partner" Type="Self.Path_Partner" Multiplicity="1" />
+    <End Role="Path_Partner_Parcel" Type="Self.Path_Partner_Parcel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Path_Partner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner_Parcel">
+        <PropertyRef Name="path_partner_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Parcel_Path_Partner_Parcel">
+    <End Role="Parcel" Type="Self.Parcel" Multiplicity="1" />
+    <End Role="Path_Partner_Parcel" Type="Self.Path_Partner_Parcel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parcel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner_Parcel">
+        <PropertyRef Name="parcelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Path_Partner">
+    <End Role="Partner" Type="Self.Partner" Multiplicity="0..1" />
+    <End Role="Path_Partner" Type="Self.Path_Partner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Partner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner">
+        <PropertyRef Name="partnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Path_Partner1">
+    <End Role="Path_Partner" Type="Self.Path_Partner" Multiplicity="0..1" />
+    <End Role="Path_Partner1" Type="Self.Path_Partner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Path_Partner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner1">
+        <PropertyRef Name="nextNode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Path_Partner_Path_Partner2">
+    <End Role="Path" Type="Self.Path" Multiplicity="1" />
+    <End Role="Path_Partner" Type="Self.Path_Partner" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Path">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Path_Partner">
+        <PropertyRef Name="pathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="logistic_dbModelStoreContainer">
+    <EntitySet Name="Area" EntityType="Self.Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AttemptHistory" EntityType="Self.AttemptHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parcel" EntityType="Self.Parcel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ParcelType" EntityType="Self.ParcelType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Partner" EntityType="Self.Partner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Path" EntityType="Self.Path" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Path_Partner" EntityType="Self.Path_Partner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Path_Partner_Parcel" EntityType="Self.Path_Partner_Parcel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SecurityQuestion" EntityType="Self.SecurityQuestion" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Area_Area" Association="Self.FK_Area_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Area1" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Area_Area1" Association="Self.FK_Area_Area1">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Area1" EntitySet="Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AttemptHistory_Partner" Association="Self.FK_AttemptHistory_Partner">
+      <End Role="Partner" EntitySet="Partner" />
+      <End Role="AttemptHistory" EntitySet="AttemptHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AttemptHistory_SecurityQuestion" Association="Self.FK_AttemptHistory_SecurityQuestion">
+      <End Role="SecurityQuestion" EntitySet="SecurityQuestion" />
+      <End Role="AttemptHistory" EntitySet="AttemptHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Parcel_ParcelType" Association="Self.FK_Parcel_ParcelType">
+      <End Role="ParcelType" EntitySet="ParcelType" />
+      <End Role="Parcel" EntitySet="Parcel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Parcel_Path" Association="Self.FK_Parcel_Path">
+      <End Role="Path" EntitySet="Path" />
+      <End Role="Parcel" EntitySet="Parcel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Area1" Association="Self.FK_Path_Area1">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Path" EntitySet="Path" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Area2" Association="Self.FK_Path_Area2">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Path" EntitySet="Path" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Area" Association="Self.FK_Path_Partner_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Path_Partner" EntitySet="Path_Partner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Parcel_Path_Partner" Association="Self.FK_Path_Partner_Parcel_Path_Partner">
+      <End Role="Path_Partner" EntitySet="Path_Partner" />
+      <End Role="Path_Partner_Parcel" EntitySet="Path_Partner_Parcel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Parcel_Path_Partner_Parcel" Association="Self.FK_Path_Partner_Parcel_Path_Partner_Parcel">
+      <End Role="Parcel" EntitySet="Parcel" />
+      <End Role="Path_Partner_Parcel" EntitySet="Path_Partner_Parcel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Path_Partner" Association="Self.FK_Path_Partner_Path_Partner">
+      <End Role="Partner" EntitySet="Partner" />
+      <End Role="Path_Partner" EntitySet="Path_Partner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Path_Partner1" Association="Self.FK_Path_Partner_Path_Partner1">
+      <End Role="Path_Partner" EntitySet="Path_Partner" />
+      <End Role="Path_Partner1" EntitySet="Path_Partner" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Path_Partner_Path_Partner2" Association="Self.FK_Path_Partner_Path_Partner2">
+      <End Role="Path" EntitySet="Path" />
+      <End Role="Path_Partner" EntitySet="Path_Partner" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WSC2017_Session4ModelStoreContainer" CdmEntityContainer="WSC2017_Session4Entities">
+    <EntitySetMapping Name="Airports">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.Airport">
+        <MappingFragment StoreEntitySet="Airport">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IATACode" ColumnName="IATACode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.Answer">
+        <MappingFragment StoreEntitySet="Answer">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Answer1" ColumnName="Answer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CabinTypes">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.CabinType">
+        <MappingFragment StoreEntitySet="CabinType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CabinType1" ColumnName="CabinType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailSurveys">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.DetailSurvey">
+        <MappingFragment StoreEntitySet="DetailSurvey">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SurveyID" ColumnName="SurveyID" />
+          <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+          <ScalarProperty Name="AnswerID" ColumnName="AnswerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.Question">
+        <MappingFragment StoreEntitySet="Question">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Question1" ColumnName="Question" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Surveys">
+      <EntityTypeMapping TypeName="WSC2017_Session4Model.Survey">
+        <MappingFragment StoreEntitySet="Survey">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SurveyDate" ColumnName="SurveyDate" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="Arrival" ColumnName="Arrival" />
+          <ScalarProperty Name="CabinType" ColumnName="CabinType" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Subscription" ColumnName="Subscription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

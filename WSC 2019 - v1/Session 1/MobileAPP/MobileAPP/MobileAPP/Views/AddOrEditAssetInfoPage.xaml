@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAPP.Views.AddOrEditAssetInfoPage">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Asset Information" FontSize="24" FontFamily="Title"/>
+
+            <Button Text="Back" HorizontalOptions="EndAndExpand" BackgroundColor="Transparent" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Grid RowDefinitions="80, 80, 80, 80" ColumnDefinitions="*, 1.5*">
+                <Entry Placeholder="Asset Name" Grid.ColumnSpan="2" x:Name="assetNameEntry"/>
+
+                <Picker Title="Department" x:Name="dPicker" Grid.Row="1" Grid.Column="0" SelectedIndexChanged="dPicker_SelectedIndexChanged"/>
+                <Picker Title="Location" x:Name="lPicker" Grid.Row="1" Grid.Column="1" SelectedIndexChanged="dPicker_SelectedIndexChanged"/>
+
+                <Picker Title="Asset Group" x:Name="agPicker" Grid.Row="2" Grid.Column="0" SelectedIndexChanged="dPicker_SelectedIndexChanged"/>
+                <Picker Title="Accountable Party" x:Name="ePicker" Grid.Row="2" Grid.Column="1"/>
+
+                <Editor x:Name="AssetDescEditor" Placeholder="Asset Description,&#10;Multi Line" Grid.Row="3" Grid.ColumnSpan="2"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="calender" HeightRequest="50" WidthRequest="50"/>
+                <DatePicker WidthRequest="300" x:Name="ExpiredDatePicker" DateSelected="ExpiredDatePicker_DateSelected"/>
+                <Label Text="AssetSN: "/>
+                
+                <Label FontFamily="Bold" x:Name="AssetSNLabel" Text="dd/gg/mmmm"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Capture Image" HorizontalOptions="EndAndExpand" Clicked="Button_Clicked_1"/>
+                <Button Text="Browse" HorizontalOptions="End" Clicked="Button_Clicked_2"/>
+            </StackLayout>
+
+            <ListView x:Name="lv" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HeightRequest="100">
+                                <Image WidthRequest="80" HeightRequest="80" Source="{Binding .}" HorizontalOptions="StartAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal">
+                <Button Text="Submit" BackgroundColor="Transparent" Clicked="Button_Clicked_3" TextColor="Blue" HorizontalOptions="EndAndExpand"/>
+                <Button Text="CANCEL" BackgroundColor="Transparent" TextColor="Blue" HorizontalOptions="End" Clicked="Button_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

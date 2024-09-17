@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="WSC2017_Session4Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Airport">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IATACode" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Answer" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CabinType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CabinType" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DetailSurvey">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SurveyID" Type="int" Nullable="false" />
+          <Property Name="QuestionID" Type="int" Nullable="false" />
+          <Property Name="AnswerID" Type="int" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Question" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Survey">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SurveyDate" Type="date" Nullable="false" />
+          <Property Name="Departure" Type="int" />
+          <Property Name="Arrival" Type="int" />
+          <Property Name="CabinType" Type="int" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Gender" Type="varchar" MaxLength="20" />
+          <Property Name="Subscription" Type="char" MaxLength="1" />
+        </EntityType>
+        <Association Name="FK_DetailSurvey_Answer">
+          <End Role="Answer" Type="Self.Answer" Multiplicity="0..1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Answer">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="AnswerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DetailSurvey_Question">
+          <End Role="Question" Type="Self.Question" Multiplicity="1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="QuestionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DetailSurvey_Survey">
+          <End Role="Survey" Type="Self.Survey" Multiplicity="1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Survey">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="SurveyID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Survey_Airport">
+          <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Airport">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="Departure" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Survey_Airport1">
+          <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Airport">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="Arrival" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Survey_CabinType">
+          <End Role="CabinType" Type="Self.CabinType" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CabinType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="CabinType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WSC2017_Session4ModelStoreContainer">
+          <EntitySet Name="Airport" EntityType="Self.Airport" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Answer" EntityType="Self.Answer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CabinType" EntityType="Self.CabinType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DetailSurvey" EntityType="Self.DetailSurvey" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Question" EntityType="Self.Question" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Survey" EntityType="Self.Survey" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DetailSurvey_Answer" Association="Self.FK_DetailSurvey_Answer">
+            <End Role="Answer" EntitySet="Answer" />
+            <End Role="DetailSurvey" EntitySet="DetailSurvey" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DetailSurvey_Question" Association="Self.FK_DetailSurvey_Question">
+            <End Role="Question" EntitySet="Question" />
+            <End Role="DetailSurvey" EntitySet="DetailSurvey" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DetailSurvey_Survey" Association="Self.FK_DetailSurvey_Survey">
+            <End Role="Survey" EntitySet="Survey" />
+            <End Role="DetailSurvey" EntitySet="DetailSurvey" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Survey_Airport" Association="Self.FK_Survey_Airport">
+            <End Role="Airport" EntitySet="Airport" />
+            <End Role="Survey" EntitySet="Survey" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Survey_Airport1" Association="Self.FK_Survey_Airport1">
+            <End Role="Airport" EntitySet="Airport" />
+            <End Role="Survey" EntitySet="Survey" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Survey_CabinType" Association="Self.FK_Survey_CabinType">
+            <End Role="CabinType" EntitySet="CabinType" />
+            <End Role="Survey" EntitySet="Survey" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WSC2017_Session4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Airport">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IATACode" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Surveys" Relationship="Self.FK_Survey_Airport" FromRole="Airport" ToRole="Survey" />
+          <NavigationProperty Name="Surveys1" Relationship="Self.FK_Survey_Airport1" FromRole="Airport" ToRole="Survey" />
+        </EntityType>
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Answer1" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="DetailSurveys" Relationship="Self.FK_DetailSurvey_Answer" FromRole="Answer" ToRole="DetailSurvey" />
+        </EntityType>
+        <EntityType Name="CabinType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CabinType1" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Surveys" Relationship="Self.FK_Survey_CabinType" FromRole="CabinType" ToRole="Survey" />
+        </EntityType>
+        <EntityType Name="DetailSurvey">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyID" Type="Int32" Nullable="false" />
+          <Property Name="QuestionID" Type="Int32" Nullable="false" />
+          <Property Name="AnswerID" Type="Int32" />
+          <NavigationProperty Name="Answer" Relationship="Self.FK_DetailSurvey_Answer" FromRole="DetailSurvey" ToRole="Answer" />
+          <NavigationProperty Name="Question" Relationship="Self.FK_DetailSurvey_Question" FromRole="DetailSurvey" ToRole="Question" />
+          <NavigationProperty Name="Survey" Relationship="Self.FK_DetailSurvey_Survey" FromRole="DetailSurvey" ToRole="Survey" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Question1" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="DetailSurveys" Relationship="Self.FK_DetailSurvey_Question" FromRole="Question" ToRole="DetailSurvey" />
+        </EntityType>
+        <EntityType Name="Survey">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SurveyDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Departure" Type="Int32" />
+          <Property Name="Arrival" Type="Int32" />
+          <Property Name="CabinType" Type="Int32" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Subscription" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="Airport" Relationship="Self.FK_Survey_Airport" FromRole="Survey" ToRole="Airport" />
+          <NavigationProperty Name="Airport1" Relationship="Self.FK_Survey_Airport1" FromRole="Survey" ToRole="Airport" />
+          <NavigationProperty Name="CabinType1" Relationship="Self.FK_Survey_CabinType" FromRole="Survey" ToRole="CabinType" />
+          <NavigationProperty Name="DetailSurveys" Relationship="Self.FK_DetailSurvey_Survey" FromRole="Survey" ToRole="DetailSurvey" />
+        </EntityType>
+        <Association Name="FK_Survey_Airport">
+          <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Airport">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="Departure" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Survey_Airport1">
+          <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Airport">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="Arrival" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DetailSurvey_Answer">
+          <End Role="Answer" Type="Self.Answer" Multiplicity="0..1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Answer">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="AnswerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Survey_CabinType">
+          <End Role="CabinType" Type="Self.CabinType" Multiplicity="0..1" />
+          <End Role="Survey" Type="Self.Survey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CabinType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Survey">
+              <PropertyRef Name="CabinType" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DetailSurvey_Question">
+          <End Role="Question" Type="Self.Question" Multiplicity="1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="QuestionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DetailSurvey_Survey">
+          <End Role="Survey" Type="Self.Survey" Multiplicity="1" />
+          <End Role="DetailSurvey" Type="Self.DetailSurvey" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Survey">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="DetailSurvey">
+              <PropertyRef Name="SurveyID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WSC2017_Session4Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Airports" EntityType="Self.Airport" />
+          <EntitySet Name="Answers" EntityType="Self.Answer" />
+          <EntitySet Name="CabinTypes" EntityType="Self.CabinType" />
+          <EntitySet Name="DetailSurveys" EntityType="Self.DetailSurvey" />
+          <EntitySet Name="Questions" EntityType="Self.Question" />
+          <EntitySet Name="Surveys" EntityType="Self.Survey" />
+          <AssociationSet Name="FK_Survey_Airport" Association="Self.FK_Survey_Airport">
+            <End Role="Airport" EntitySet="Airports" />
+            <End Role="Survey" EntitySet="Surveys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Survey_Airport1" Association="Self.FK_Survey_Airport1">
+            <End Role="Airport" EntitySet="Airports" />
+            <End Role="Survey" EntitySet="Surveys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DetailSurvey_Answer" Association="Self.FK_DetailSurvey_Answer">
+            <End Role="Answer" EntitySet="Answers" />
+            <End Role="DetailSurvey" EntitySet="DetailSurveys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Survey_CabinType" Association="Self.FK_Survey_CabinType">
+            <End Role="CabinType" EntitySet="CabinTypes" />
+            <End Role="Survey" EntitySet="Surveys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DetailSurvey_Question" Association="Self.FK_DetailSurvey_Question">
+            <End Role="Question" EntitySet="Questions" />
+            <End Role="DetailSurvey" EntitySet="DetailSurveys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DetailSurvey_Survey" Association="Self.FK_DetailSurvey_Survey">
+            <End Role="Survey" EntitySet="Surveys" />
+            <End Role="DetailSurvey" EntitySet="DetailSurveys" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WSC2017_Session4ModelStoreContainer" CdmEntityContainer="WSC2017_Session4Entities">
+          <EntitySetMapping Name="Airports">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.Airport">
+              <MappingFragment StoreEntitySet="Airport">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IATACode" ColumnName="IATACode" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Answers">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.Answer">
+              <MappingFragment StoreEntitySet="Answer">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Answer1" ColumnName="Answer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CabinTypes">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.CabinType">
+              <MappingFragment StoreEntitySet="CabinType">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CabinType1" ColumnName="CabinType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DetailSurveys">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.DetailSurvey">
+              <MappingFragment StoreEntitySet="DetailSurvey">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="SurveyID" ColumnName="SurveyID" />
+                <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+                <ScalarProperty Name="AnswerID" ColumnName="AnswerID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.Question">
+              <MappingFragment StoreEntitySet="Question">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Question1" ColumnName="Question" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Surveys">
+            <EntityTypeMapping TypeName="WSC2017_Session4Model.Survey">
+              <MappingFragment StoreEntitySet="Survey">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="SurveyDate" ColumnName="SurveyDate" />
+                <ScalarProperty Name="Departure" ColumnName="Departure" />
+                <ScalarProperty Name="Arrival" ColumnName="Arrival" />
+                <ScalarProperty Name="CabinType" ColumnName="CabinType" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Subscription" ColumnName="Subscription" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
